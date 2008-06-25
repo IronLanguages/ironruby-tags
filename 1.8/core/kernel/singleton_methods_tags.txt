@@ -1,2 +1,4 @@
 fails:Kernel#singleton_methods returns a list of the names of singleton methods in the object
 fails:Kernel#singleton_methods returns a list of the names of singleton methods in the object and its ancestors and mixed-in modules
+fails:Kernel#singleton_methods returns a list of the names of singleton methods in the object
+fails:Kernel#singleton_methods returns a list of the names of singleton methods in the object and its ancestors and mixed-in modules
