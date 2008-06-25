@@ -1,0 +1,2 @@
+fails:String#each_line uses $/ as the separator when none is given
+fails:String#each_line raises a RuntimeError if the string is modified while substituting

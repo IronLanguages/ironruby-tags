@@ -1,0 +1,3 @@
+fails:String#to_i interprets leading characters as a number in the given base
+fails:String#to_i doesn't handle foreign base specifiers when base is > 0
+fails:String#to_i requires that the sign if any appears before the base specifier

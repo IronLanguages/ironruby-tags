@@ -1,0 +1,1 @@
+fails:IO.pipe creates a two-ended pipe

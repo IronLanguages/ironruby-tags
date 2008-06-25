@@ -1,0 +1,2 @@
+fails:Thread#abort_on_exception is false unless $DEBUG is true
+fails:Thread#abort_on_exception is changeable to true or false

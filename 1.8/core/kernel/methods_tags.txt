@@ -1,0 +1,2 @@
+fails:Kernel#methods doesn't pick up methods added inside 'class << self; private'
+fails:Kernel#methods returns a list of the names of publicly accessible methods in the object

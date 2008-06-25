@@ -1,0 +1,2 @@
+fails:Math.tan raises a TypeError if the argument is nil
+fails:Math.tan accepts any argument that can be coerced with Float()

@@ -1,0 +1,5 @@
+fails:Array#initialize_copy replaces the elements with elements from other array
+fails:Array#initialize_copy tries to convert the passed argument to an Array using #to_ary
+fails:Array#initialize_copy checks whether the passed argument responds to #to_ary
+fails:Array#initialize_copy does not call #to_ary on Array subclasses
+fails:Array#initialize_copy is private

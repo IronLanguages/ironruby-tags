@@ -1,0 +1,2 @@
+fails:String#[]= with String raises IndexError if the string index doesn't match a position in the string
+fails:String#[]= with String raises IndexError if the regexp index doesn't match a position in the string

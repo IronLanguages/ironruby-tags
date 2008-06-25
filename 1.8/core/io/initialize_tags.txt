@@ -1,0 +1,6 @@
+fails:IO#initialize succeeds when fd is a Fixnum
+fails:IO#initialize succeeds when fd responds to #to_int
+fails:IO#initialize raises a TypeError when fd is an IO
+fails:IO#initialize raises a TypeError when given a non-integer
+fails:IO#initialize raises IOError on closed stream
+fails:IO#initialize raises an Errno::EBADF when given an invalid file descriptor

@@ -1,0 +1,2 @@
+fails:Math.cosh raises a TypeError if the argument is nil
+fails:Math.cosh accepts any argument that can be coerced with Float()

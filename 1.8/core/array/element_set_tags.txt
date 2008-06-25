@@ -1,0 +1,2 @@
+fails:Array#[]= calls to_ary on its rhs argument for multi-element sets
+fails:Array#[]= with [index, count] inserts other section in place defined by idx

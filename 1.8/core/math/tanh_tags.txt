@@ -1,0 +1,2 @@
+fails:Math.tanh raises a TypeError if the argument is nil
+fails:Math.tanh accepts any argument that can be coerced with Float()

@@ -1,0 +1,5 @@
+fails:FileTest.zero? return true if the length of a file its zero, otherwise true
+fails:FileTest.zero? returns true for NUL
+fails:FileTest.zero? raises a TypeError if not passed a String type
+fails:FileTest.zero? zero? should return true if the named file exists and has a zero size.
+fails:FileTest.zero? returns false if the file does not exist

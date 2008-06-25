@@ -1,0 +1,2 @@
+fails:Comparable#== calls #<=> on self with other and returns true if #<=> returns 0
+fails:Comparable#== returns nil if calling #<=> on self raises a StandardError
