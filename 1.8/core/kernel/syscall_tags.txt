@@ -1,2 +1,3 @@
 fails:Kernel#syscall is a private method
 fails:Kernel#syscall is a private method
+fails:Kernel#syscall is a private method

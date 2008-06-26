@@ -6,3 +6,7 @@ fails:Kernel#system can run basic things that exist
 fails:Kernel#system returns false when it can't
 fails:Kernel#system uses /bin/sh if freaky shit is in the command
 fails:Kernel#system is a private method
+fails:Kernel#system can run basic things that exist
+fails:Kernel#system returns false when it can't
+fails:Kernel#system uses /bin/sh if freaky shit is in the command
+fails:Kernel#system is a private method

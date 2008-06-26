@@ -7,3 +7,12 @@ fails:IO#read truncates the buffer when too big
 fails:IO#read returns the given buffer
 fails:IO#read coerces the second argument to string and uses it as a buffer
 fails:IO#read raises IOError on closed stream
+fails:IO.read treats second nil argument as no length limit
+fails:IO.read treats third nil argument as 0
+fails:IO#read consumes zero bytes when reading zero bytes
+fails:IO#read expands the buffer when too small
+fails:IO#read overwrites the buffer
+fails:IO#read truncates the buffer when too big
+fails:IO#read returns the given buffer
+fails:IO#read coerces the second argument to string and uses it as a buffer
+fails:IO#read raises IOError on closed stream

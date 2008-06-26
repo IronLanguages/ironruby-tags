@@ -1,1 +1,2 @@
 fails:IO#readline raises IOError on closed stream
+fails:IO#readline raises IOError on closed stream

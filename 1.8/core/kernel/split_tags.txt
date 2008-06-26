@@ -1,2 +1,3 @@
 fails:Kernel#split is a private method
 fails:Kernel#split is a private method
+fails:Kernel#split is a private method

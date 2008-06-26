@@ -1,2 +1,3 @@
 fails:Kernel.String raises a TypeError if #to_s does not return a String
 fails:Kernel.String raises a TypeError if #to_s does not return a String
+fails:Kernel.String raises a TypeError if #to_s does not return a String

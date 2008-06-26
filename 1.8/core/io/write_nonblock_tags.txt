@@ -8,3 +8,13 @@ fails:IO#write_nonblock on a file advances the file position by the count of giv
 fails:IO#write_nonblock on a file raises IOError on closed stream
 fails:IO#write_nonblock on a file writes all of the string's bytes but does not buffer them
 fails:IO#write_nonblock on a file checks if the file is writable if writing zero bytes
+fails:IO#write_nonblock on a file coerces the argument to a string using to_s
+fails:IO#write_nonblock on a file checks if the file is writable if writing more than zero bytes
+fails:IO#write_nonblock on a file returns the number of bytes written
+fails:IO#write_nonblock on a file invokes to_s on non-String argument
+fails:IO#write_nonblock on a file writes all of the string's bytes without buffering if mode is sync
+fails:IO#write_nonblock on a file does not warn if called after IO#read
+fails:IO#write_nonblock on a file advances the file position by the count of given bytes
+fails:IO#write_nonblock on a file raises IOError on closed stream
+fails:IO#write_nonblock on a file writes all of the string's bytes but does not buffer them
+fails:IO#write_nonblock on a file checks if the file is writable if writing zero bytes
