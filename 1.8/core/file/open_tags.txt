@@ -43,3 +43,19 @@ fails:File.open raises a TypeError if passed a filename that is not a String or 
 fails:File.open raises a SystemCallError if passed an invalid Integer type
 fails:File.open raises an ArgumentError if passed the wrong number of arguments
 fails:File.open raises an ArgumentError if passed an invalid string for mode
+fails:File.open opens file when call with a block (basic case)
+fails:File.open opens with mode string
+fails:File.open opens a file with mode num
+fails:File.open opens a file that no exists when use 'a' mode
+fails:File.open opens a file that no exists when use 'w' mode
+fails:File.open raises an ArgumentError exception when call with an unknown mode
+fails:File.open can read in a block when call open with RDONLY mode
+fails:File.open can read in a block when call open with 'r' mode
+fails:File.open raises an IO exception when write in a block opened with RDONLY mode
+fails:File.open raises an IO exception when write in a block opened with 'r' mode
+fails:File.open can't read in a block when call open with File::WRONLY||File::RDONLY mode
+fails:File.open raises an IO exception when read in a block opened with WRONLY mode
+fails:File.open raises an IO exception when read in a block opened with 'w' mode
+fails:File.open can't read in a block when call open with File::EXCL mode
+fails:File.open can read in a block when call open with File::EXCL mode
+fails:File.open create a new file when use File::WRONLY|File::APPEND mode
