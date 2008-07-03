@@ -43,8 +43,6 @@ fails:File.open raises a TypeError if passed a filename that is not a String or 
 fails:File.open raises a SystemCallError if passed an invalid Integer type
 fails:File.open raises an ArgumentError if passed the wrong number of arguments
 fails:File.open raises an ArgumentError if passed an invalid string for mode
-fails:File.open with block does not raise error when file is closed inside the block
-fails:File.open with a block swallows StandardErrors produced by close
 fails:File.open opens file when call with a block (basic case)
 fails:File.open opens with mode string
 fails:File.open opens a file with mode num
