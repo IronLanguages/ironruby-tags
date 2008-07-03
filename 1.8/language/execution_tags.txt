@@ -1,0 +1,2 @@
+fails:Execution literal `` should return the result of the executed sub-process
+fails:Execution literal %x() is the same (with also interpolation)

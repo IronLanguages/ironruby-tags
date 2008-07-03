@@ -1,0 +1,1 @@
+fails:The defined? keyword returns nil when defined?(DoesNotExist.puts) is sent

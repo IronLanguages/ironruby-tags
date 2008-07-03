@@ -1,0 +1,6 @@
+fails:Predefined global $~ is set at the method-scoped level rather than block-scoped
+fails:Predefined global $_ is set to the last line read by e.g. StringIO#gets
+fails:Predefined global $_ is set at the method-scoped level rather than block-scoped
+fails:The predefined global constants includes DATA when main script contains __END__
+fails:The predefined global constants does not include DATA when main script contains no __END__
+fails:The predefined global constants includes NIL

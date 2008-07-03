@@ -1,0 +1,3 @@
+fails:An instance method definition for 'initialize_copy' method defines it as private
+fails:A method definition inside an instance_eval creates a singleton method
+fails:A method definition inside an instance_eval creates a class method when the receiver is a class

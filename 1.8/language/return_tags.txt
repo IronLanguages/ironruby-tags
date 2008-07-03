@@ -1,0 +1,1 @@
+fails:The return statement raises a ThreadError if used to exit a thread
