@@ -1,3 +1,4 @@
 fails:Array#flatten does not call flatten on elements
 fails:Array#flatten flattens any element which responds to #to_ary, using the return value of said method
 fails:Array#flatten returns subclass instance for Array subclasses
+fails:Array#flatten! raises a TypeError on frozen arrays when modification would take place

@@ -69,3 +69,4 @@ fails:Array#pack converts to BER-compressed integer with ('w')
 fails:Array#pack with count decreases result string by count chars with ('X')
 fails:Array#pack raises an ArgumentError if count greater than already generated string length with ('X')
 fails:Array#pack reuses last array element as often as needed to complete the string
+fails:Array#pack converts big integers into UTF-8 encoded byte sequences with ('U')

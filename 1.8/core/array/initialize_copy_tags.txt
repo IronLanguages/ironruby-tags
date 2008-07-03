@@ -3,3 +3,4 @@ fails:Array#initialize_copy tries to convert the passed argument to an Array usi
 fails:Array#initialize_copy checks whether the passed argument responds to #to_ary
 fails:Array#initialize_copy does not call #to_ary on Array subclasses
 fails:Array#initialize_copy is private
+fails:Array#initialize_copy raises a TypeError on a frozen array
