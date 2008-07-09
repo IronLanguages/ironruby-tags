@@ -1,1 +1,2 @@
 fails:Kernel#initialize_copy is a private method
+fail:Kernel#initialize_copy is a private method

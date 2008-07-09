@@ -59,3 +59,64 @@ fails:File.open raises an IO exception when read in a block opened with 'w' mode
 fails:File.open can't read in a block when call open with File::EXCL mode
 fails:File.open can read in a block when call open with File::EXCL mode
 fails:File.open create a new file when use File::WRONLY|File::APPEND mode
+fail:File.open with a block invokes close on opened file when exiting the block
+fail:File.open with a block propagates non-StandardErrors produced by close
+fail:File.open opens the file (basic case)
+fail:File.open opens file when call with a block (basic case)
+fail:File.open opens with mode string
+fail:File.open opens a file with mode string and block
+fail:File.open opens a file with mode num
+fail:File.open opens a file with mode num and block
+fail:File.open creates the file and returns writable descriptor when called with 'w' mode and r-o permissions
+fail:File.open opens the existing file, does not change permissions even when they are specified
+fail:File.open creates a new write-only file when invoked with 'w' and '0222'
+fail:File.open opens the file when call with fd
+fail:File.open opens a file with a file descriptor d and a block
+fail:File.open opens a file that no exists when use File::WRONLY mode
+fail:File.open opens a file that no exists when use File::RDONLY mode
+fail:File.open opens a file that no exists when use 'r' mode
+fail:File.open opens a file that no exists when use File::EXCL mode
+fail:File.open opens a file that no exists when use File::NONBLOCK mode
+fail:File.open opens a file that no exists when use File::TRUNC mode
+fail:File.open opens a file that no exists when use File::NOCTTY mode
+fail:File.open opens a file that no exists when use File::CREAT mode
+fail:File.open opens a file that no exists when use 'a' mode
+fail:File.open opens a file that no exists when use 'w' mode
+fail:File.open raises an ArgumentError exception when call with an unknown mode
+fail:File.open can read in a block when call open with RDONLY mode
+fail:File.open can read in a block when call open with 'r' mode
+fail:File.open raises an IO exception when write in a block opened with RDONLY mode
+fail:File.open raises an IO exception when write in a block opened with 'r' mode
+fail:File.open can't write in a block when call open with File::WRONLY||File::RDONLY mode
+fail:File.open can't read in a block when call open with File::WRONLY||File::RDONLY mode
+fail:File.open can write in a block when call open with WRONLY mode
+fail:File.open can write in a block when call open with 'w' mode
+fail:File.open raises an IO exception when read in a block opened with WRONLY mode
+fail:File.open raises an IO exception when read in a block opened with 'w' mode
+fail:File.open raises an IO exception when read in a block opened with 'a' mode
+fail:File.open raises an IO exception when read in a block opened with File::WRONLY|File::APPEND mode
+fail:File.open raises an IO exception when read in a block opened with File::RDONLY|File::APPEND mode
+fail:File.open can read and write in a block when call open with RDWR mode
+fail:File.open can't read in a block when call open with File::EXCL mode
+fail:File.open can read in a block when call open with File::EXCL mode
+fail:File.open can read and write in a block when call open with File::RDWR|File::EXCL mode
+fail:File.open raises an Errorno::EEXIST if the file exists when open with File::CREAT|File::EXCL
+fail:File.open create a new file when use File::WRONLY|File::APPEND mode
+fail:File.open opens a file when use File::WRONLY|File::APPEND mode
+fail:File.open raises an Errorno::EEXIST if the file exists when open with File::RDONLY|File::APPEND
+fail:File.open truncates the file when passed File::TRUNC mode
+fail:File.open can't read in a block when call open with File::TRUNC mode
+fail:File.open opens a file when use File::WRONLY|File::TRUNC mode
+fail:File.open can't write in a block when call open with File::TRUNC mode
+fail:File.open raises an Errorno::EEXIST if the file exists when open with File::RDONLY|File::TRUNC
+fail:File.open raises an Errno::EACCES when opening non-permitted file
+fail:File.open raises an Errno::EACCES when opening read-only file
+fail:File.open opens a file for binary read
+fail:File.open opens a file for binary write
+fail:File.open opens a file for read-write and truncate the file
+fail:File.open opens a file for binary read-write starting at the beginning of the file
+fail:File.open opens a file for binary read-write and truncate the file
+fail:File.open raises a TypeError if passed a filename that is not a String or Integer type
+fail:File.open raises a SystemCallError if passed an invalid Integer type
+fail:File.open raises an ArgumentError if passed the wrong number of arguments
+fail:File.open raises an ArgumentError if passed an invalid string for mode

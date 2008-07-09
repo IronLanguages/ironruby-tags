@@ -9,3 +9,14 @@ fails:File.chmod invokes to_int on non-integer argument
 fails:File.chmod invokes to_str on non-string file names
 fails:File.chmod with '0444' makes file readable and executable but not writable
 fails:File.chmod with '0644' makes file readable and writable and also executable
+fail:File#chmod returns 0 if successful
+fail:File#chmod always succeeds with any numeric values
+fail:File#chmod invokes to_int on non-integer argument
+fail:File#chmod with '0444' makes file readable and executable but not writable
+fail:File#chmod with '0644' makes file readable and writable and also executable
+fail:File.chmod returns the number of files modified
+fail:File.chmod throws a TypeError if the given path is not coercable into a string
+fail:File.chmod invokes to_int on non-integer argument
+fail:File.chmod invokes to_str on non-string file names
+fail:File.chmod with '0444' makes file readable and executable but not writable
+fail:File.chmod with '0644' makes file readable and writable and also executable

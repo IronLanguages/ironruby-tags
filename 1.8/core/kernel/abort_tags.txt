@@ -1,1 +1,2 @@
 fails:Kernel#abort is a private method
+fail:Kernel#abort is a private method

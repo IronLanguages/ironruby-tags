@@ -1,1 +1,2 @@
 fails:Process.wait raises a Errno::ECHILD if there are no child processes
+fail:Process.wait raises a Errno::ECHILD if there are no child processes

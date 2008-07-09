@@ -8,3 +8,12 @@ fails:IO.open raises IOError on closed stream
 fails:IO.open with a block invokes close on opened IO object when exiting the block
 fails:IO.open with a block propagates non-StandardErrors produced by close
 fails:IO.open with a block swallows StandardErrors produced by close
+fail:IO#open returns a new IO object
+fail:IO#open takes an Integer or #to_int argument as the descriptor to open
+fail:IO#open associates new IO with the old descriptor so each IO directly affects the other
+fail:IO#open raises TypeError if not given an Integer or #to_int
+fail:IO#open raises EBADF if the file descriptor given is not a valid and open one
+fail:IO#open raises EINVAL if mode is not compatible with the descriptor's current mode
+fail:IO.open raises IOError on closed stream
+fail:IO.open with a block invokes close on opened IO object when exiting the block
+fail:IO.open with a block propagates non-StandardErrors produced by close

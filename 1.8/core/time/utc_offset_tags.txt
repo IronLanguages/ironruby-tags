@@ -1,1 +1,2 @@
 fails:Time#utc_offset returns the offset in seconds between the timezone of time and UTC
+fail:Time#utc_offset returns the offset in seconds between the timezone of time and UTC

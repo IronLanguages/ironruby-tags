@@ -1,1 +1,2 @@
 fails:Dir#read returns the file name in the current seek position
+fail:Dir#read returns the file name in the current seek position

@@ -1,1 +1,2 @@
 fails:Hash#select raises a LocalJumpError when called on a non-empty hash without a block
+fail:Hash#select raises a LocalJumpError when called on a non-empty hash without a block

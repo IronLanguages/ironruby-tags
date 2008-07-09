@@ -1,1 +1,2 @@
 fails:IO.pipe creates a two-ended pipe
+fail:IO.pipe creates a two-ended pipe

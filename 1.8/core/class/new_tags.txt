@@ -1,2 +1,4 @@
 fails:Class.new creates a class without a name
 fails:Class.new raises a TypeError when given a non-Class
+fail:Class.new creates a class without a name
+fail:Class.new raises a TypeError when given a non-Class

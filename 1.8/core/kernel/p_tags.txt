@@ -3,3 +3,8 @@ fails:Kernel#p prints obj.inspect followed by system record separator (usually \
 fails:Kernel#p is not affected by setting $\, $/ or $,
 fails:Kernel#p prints nothing if no argument is given
 fails:Kernel#p prints nothing if called splatting an empty Array
+fail:Kernel#p flushes output if receiver is a File
+fail:Kernel#p prints obj.inspect followed by system record separator (usually \n) for each argument given
+fail:Kernel#p is not affected by setting $\, $/ or $,
+fail:Kernel#p prints nothing if no argument is given
+fail:Kernel#p prints nothing if called splatting an empty Array

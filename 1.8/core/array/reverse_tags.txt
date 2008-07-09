@@ -1,1 +1,2 @@
 fails:Array#reverse returns subclass instance on Array subclasses
+fail:Array#reverse returns subclass instance on Array subclasses

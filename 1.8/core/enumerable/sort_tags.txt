@@ -1,1 +1,2 @@
 fails:Enumerable#sort sort should throw a NoMethodError if elements do not define <=>
+fail:Enumerable#sort sort should throw a NoMethodError if elements do not define <=>

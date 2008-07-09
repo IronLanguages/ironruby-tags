@@ -4,3 +4,7 @@ fails:Kernel#sub is a private method
 fails:Kernel#sub! is a private method
 fails:Kernel#sub is a private method
 fails:Kernel#sub! is a private method
+fail:Kernel#sub is a private method
+fail:Kernel#sub! is a private method
+fail:Kernel#sub is a private method
+fail:Kernel#sub! is a private method

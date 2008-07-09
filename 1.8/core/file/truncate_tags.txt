@@ -17,3 +17,22 @@ fails:File#truncate raises an ArgumentError if not passed one argument
 fails:File#truncate raises an Errno::EINVAL if the length argument is not valid
 fails:File#truncate raises an IOError if file is closed
 fails:File#truncate raises a TypeError if not passed an Integer type for the for the argument
+fail:File.truncate truncates a file
+fail:File.truncate truncate a file size to 0
+fail:File.truncate truncate a file size to 5
+fail:File.truncate truncates to a larger file size than the original file
+fail:File.truncate truncates to the same size as the original file
+fail:File.truncate raises an Errno::ENOENT if the file does not exist
+fail:File.truncate raises an ArgumentError if not passed two arguments
+fail:File.truncate raises an Errno::EINVAL if the length argument is not valid
+fail:File.truncate raises a TypeError if not passed a String type for the first argument
+fail:File.truncate raises a TypeError if not passed an Integer type for the second argument
+fail:File#truncate truncates a file
+fail:File#truncate truncates a file size to 0
+fail:File#truncate truncates a file size to 5
+fail:File#truncate truncates a file to a larger size than the original file
+fail:File#truncate truncates a file to the same size as the original file
+fail:File#truncate raises an ArgumentError if not passed one argument
+fail:File#truncate raises an Errno::EINVAL if the length argument is not valid
+fail:File#truncate raises an IOError if file is closed
+fail:File#truncate raises a TypeError if not passed an Integer type for the for the argument

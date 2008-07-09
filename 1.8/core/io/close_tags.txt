@@ -3,3 +3,8 @@ fails:IO#close raises when a file descriptor is closed twice
 fails:IO#close on an IO.popen stream clears #pid
 fails:IO#close on an IO.popen stream sets $?
 fails:IO#close on an IO.popen stream waits for the child to exit
+fail:IO#close makes the stream unavailable for any further data operations
+fail:IO#close raises when a file descriptor is closed twice
+fail:IO#close on an IO.popen stream clears #pid
+fail:IO#close on an IO.popen stream sets $?
+fail:IO#close on an IO.popen stream waits for the child to exit

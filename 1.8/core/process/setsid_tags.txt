@@ -1,2 +1,4 @@
 fails:Process.setsid takes no arguments
 fails:Process.setsid establishes this process as a new session and process group leader
+fail:Process.setsid takes no arguments
+fail:Process.setsid establishes this process as a new session and process group leader

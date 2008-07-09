@@ -1,2 +1,4 @@
 fails:Module#include calls #append_features(self) in reversed order on each module
 fails:Module#include? raises a TypeError when no module was given
+fail:Module#include calls #append_features(self) in reversed order on each module
+fail:Module#include? raises a TypeError when no module was given

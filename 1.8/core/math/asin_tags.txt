@@ -1,2 +1,4 @@
 fails:Math.asin raises a TypeError if the argument is nil
 fails:Math.asin accepts any argument that can be coerced with Float()
+fail:Math.asin raises a TypeError if the argument is nil
+fail:Math.asin accepts any argument that can be coerced with Float()

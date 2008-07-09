@@ -6,3 +6,11 @@ fails:File.umask raises ArgumentError when more than one argument is provided
 fails:File.umask Returns the current umask value for this process. (basic)
 fails:File.umask Returns the current umask value for this process.
 fails:File.umask raises an exception if the arguments are wrong type or are the incorect number of arguments 
+fail:File.umask return a Fixnum
+fail:File.umask umask should return the current umask value for the process
+fail:File.umask invokes to_int on non-integer argument
+fail:File.umask always succeeds with any integer values
+fail:File.umask raises ArgumentError when more than one argument is provided
+fail:File.umask Returns the current umask value for this process. (basic)
+fail:File.umask Returns the current umask value for this process.
+fail:File.umask raises an exception if the arguments are wrong type or are the incorect number of arguments 

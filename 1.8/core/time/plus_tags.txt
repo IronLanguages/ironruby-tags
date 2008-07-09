@@ -3,3 +3,8 @@ fails:Time#+ accepts arguments that can be coerced into Float
 fails:Time#+ raises TypeError on argument that can't be coerced into Float
 fails:Time#+ raises TypeError on Time argument
 fails:Time#+ raises TypeError on nil argument
+fail:Time#+ increments the time by the specified amount
+fail:Time#+ accepts arguments that can be coerced into Float
+fail:Time#+ raises TypeError on argument that can't be coerced into Float
+fail:Time#+ raises TypeError on Time argument
+fail:Time#+ raises TypeError on nil argument

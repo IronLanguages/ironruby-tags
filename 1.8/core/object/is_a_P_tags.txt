@@ -1,2 +1,4 @@
 fails:Object#is_a? returns true if given a Module that object has been extended with
 fails:Object#is_a? raises a TypeError if given an object that is not a Class nor a Module
+fail:Object#is_a? returns true if given a Module that object has been extended with
+fail:Object#is_a? raises a TypeError if given an object that is not a Class nor a Module

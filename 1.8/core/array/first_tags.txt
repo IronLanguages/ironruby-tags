@@ -1,1 +1,2 @@
 fails:Array#first does not return subclass instance when passed count on Array subclasses
+fail:Array#first does not return subclass instance when passed count on Array subclasses

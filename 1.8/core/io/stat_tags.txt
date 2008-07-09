@@ -1,2 +1,6 @@
 fails:IO#stat raises IOError on closed stream
 fails:IO#stat raises IOError on closed stream
+fail:IO#stat raises IOError on closed stream
+fail:IO#stat returns a File::Stat object
+fail:IO#stat raises IOError on closed stream
+fail:IO#stat returns a File::Stat object

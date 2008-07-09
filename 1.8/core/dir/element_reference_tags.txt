@@ -5,3 +5,9 @@ fails:Dir.[] matches special characters by escaping with a backslash with '\<cha
 fails:Dir.[] recursively matches directories with '**/<characters>'
 fails:Dir.[] orders directory-based entries before files when a glob matches both
 fails:Dir.[] matches multiple recursives
+fail:Dir.[] matches regexp special [
+fail:Dir.[] matches regexp special }
+fail:Dir.[] recursively matches any nondot subdirectories with '**/'
+fail:Dir.[] matches special characters by escaping with a backslash with '\<character>'
+fail:Dir.[] recursively matches directories with '**/<characters>'
+fail:Dir.[] matches multiple recursives

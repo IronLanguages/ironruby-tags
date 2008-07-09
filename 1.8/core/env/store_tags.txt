@@ -1,1 +1,2 @@
 fails:ENV.store sets the environment variable to the given value
+fail:ENV.store sets the environment variable to the given value

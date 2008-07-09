@@ -1,1 +1,2 @@
 fails:Bignum#^ returns self bitwise EXCLUSIVE OR other
+fail:Bignum#^ returns self bitwise EXCLUSIVE OR other

@@ -1,3 +1,5 @@
 fails:Kernel#readlines is a private method
 fails:Kernel#readlines is a private method
 fails:Kernel#readlines is a private method
+fail:Kernel#readlines is a private method
+fail:Kernel#readlines is a private method

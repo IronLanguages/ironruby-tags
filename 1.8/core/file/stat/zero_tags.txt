@@ -1,1 +1,2 @@
 fails:File::Stat#zero? returns true for NUL
+fail:File::Stat#zero? returns true for NUL

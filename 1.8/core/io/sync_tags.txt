@@ -2,3 +2,7 @@ fails:IO#sync= raises IOError on closed stream
 fails:IO#sync raises IOError on closed stream
 fails:IO#sync= raises IOError on closed stream
 fails:IO#sync raises IOError on closed stream
+fail:IO#sync= raises IOError on closed stream
+fail:IO#sync raises IOError on closed stream
+fail:IO#sync= raises IOError on closed stream
+fail:IO#sync raises IOError on closed stream

@@ -26,3 +26,32 @@ fails:String#% behaves as if calling Kernel#Float for %E arguments
 fails:String#% behaves as if calling Kernel#Float for %f arguments
 fails:String#% behaves as if calling Kernel#Float for %g arguments
 fails:String#% behaves as if calling Kernel#Float for %G arguments
+fail:String#% formats single % characters before a newline or NULL as literal %s
+fail:String#% raises an ArgumentError for unused arguments when $DEBUG is true
+fail:String#% replaces trailing absolute argument specifier without type with percent sign
+fail:String#% raises an ArgumentError when given invalid argument specifiers
+fail:String#% raises an ArgumentError when multiple positional argument tokens are given for one format specifier
+fail:String#% allows positional arguments for width star and precision star arguments
+fail:String#% tries to convert the argument to Array by calling #to_ary
+fail:String#% supports binary formats using %b
+fail:String#% supports float formats using %e
+fail:String#% supports float formats using %E
+fail:String#% supports float formats using %f
+fail:String#% supports float formats using %g
+fail:String#% supports float formats using %G
+fail:String#% taints result for %s when argument is tainted
+fail:String#% raises an ArgumentError for huge precisions for %s
+fail:String#% supports unsigned formats using %u
+fail:String#% supports negative bignums by prefixing the value with dots
+fail:String#% behaves as if calling Kernel#Integer for %b argument
+fail:String#% behaves as if calling Kernel#Integer for %d argument
+fail:String#% behaves as if calling Kernel#Integer for %i argument
+fail:String#% behaves as if calling Kernel#Integer for %o argument
+fail:String#% behaves as if calling Kernel#Integer for %u argument
+fail:String#% behaves as if calling Kernel#Integer for %x argument
+fail:String#% behaves as if calling Kernel#Integer for %X argument
+fail:String#% behaves as if calling Kernel#Float for %e arguments
+fail:String#% behaves as if calling Kernel#Float for %E arguments
+fail:String#% behaves as if calling Kernel#Float for %f arguments
+fail:String#% behaves as if calling Kernel#Float for %g arguments
+fail:String#% behaves as if calling Kernel#Float for %G arguments

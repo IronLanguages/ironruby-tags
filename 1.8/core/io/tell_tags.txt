@@ -1,2 +1,2 @@
 fails:IO#tell raises IOError on closed stream
-fails:IO#tell raises IOError on closed stream
+fail:IO#tell raises IOError on closed stream

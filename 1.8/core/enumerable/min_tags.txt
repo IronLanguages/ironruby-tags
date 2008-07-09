@@ -1,1 +1,2 @@
 fails:Enumerable#min return the minimun when using a block rule
+fail:Enumerable#min return the minimun when using a block rule

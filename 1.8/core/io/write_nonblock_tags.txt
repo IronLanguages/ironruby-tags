@@ -18,3 +18,23 @@ fails:IO#write_nonblock on a file advances the file position by the count of giv
 fails:IO#write_nonblock on a file raises IOError on closed stream
 fails:IO#write_nonblock on a file writes all of the string's bytes but does not buffer them
 fails:IO#write_nonblock on a file checks if the file is writable if writing zero bytes
+fail:IO#write_nonblock on a file coerces the argument to a string using to_s
+fail:IO#write_nonblock on a file checks if the file is writable if writing more than zero bytes
+fail:IO#write_nonblock on a file returns the number of bytes written
+fail:IO#write_nonblock on a file invokes to_s on non-String argument
+fail:IO#write_nonblock on a file writes all of the string's bytes without buffering if mode is sync
+fail:IO#write_nonblock on a file does not warn if called after IO#read
+fail:IO#write_nonblock on a file advances the file position by the count of given bytes
+fail:IO#write_nonblock on a file raises IOError on closed stream
+fail:IO#write_nonblock on a file writes all of the string's bytes but does not buffer them
+fail:IO#write_nonblock on a file checks if the file is writable if writing zero bytes
+fail:IO#write_nonblock on a file coerces the argument to a string using to_s
+fail:IO#write_nonblock on a file checks if the file is writable if writing more than zero bytes
+fail:IO#write_nonblock on a file returns the number of bytes written
+fail:IO#write_nonblock on a file invokes to_s on non-String argument
+fail:IO#write_nonblock on a file writes all of the string's bytes without buffering if mode is sync
+fail:IO#write_nonblock on a file does not warn if called after IO#read
+fail:IO#write_nonblock on a file advances the file position by the count of given bytes
+fail:IO#write_nonblock on a file raises IOError on closed stream
+fail:IO#write_nonblock on a file writes all of the string's bytes but does not buffer them
+fail:IO#write_nonblock on a file checks if the file is writable if writing zero bytes

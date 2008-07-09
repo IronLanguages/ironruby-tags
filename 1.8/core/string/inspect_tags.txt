@@ -1,3 +1,6 @@
 fails:String#inspect produces different output based on $KCODE
 fails:String#inspect can handle malformed UTF-8 string when $KCODE is UTF-8
 fails:String#inspect does not return subclass instances
+fail:String#inspect produces different output based on $KCODE
+fail:String#inspect can handle malformed UTF-8 string when $KCODE is UTF-8
+fail:String#inspect does not return subclass instances

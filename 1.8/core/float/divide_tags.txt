@@ -1,1 +1,2 @@
 fails:Float#/ properly handles BigDecimal argument
+fail:Float#/ properly handles BigDecimal argument

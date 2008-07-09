@@ -4,3 +4,9 @@ fails:SystemCallError#errno returns nil when no errno given
 fails:SystemCallError#errno returns the errno given as optional argument to new
 fails:SystemCallError#message should return default message when no message given
 fails:SystemCallError#message returns the message given as an argument to new
+fail:SystemCallError.new takes an optional errno argument
+fail:SystemCallError.new accepts single Fixnum argument as errno
+fail:SystemCallError#errno returns nil when no errno given
+fail:SystemCallError#errno returns the errno given as optional argument to new
+fail:SystemCallError#message should return default message when no message given
+fail:SystemCallError#message returns the message given as an argument to new

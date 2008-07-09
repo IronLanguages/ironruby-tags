@@ -10,3 +10,8 @@ fails:String#sub with pattern and block restores $~ after leaving the block
 fails:String#sub with pattern and block sets $~ to MatchData of last match and nil when there's none for access from outside
 fails:String#sub with pattern and block doesn't raise a RuntimeError if the string is modified while substituting
 fails:String#sub! with pattern and block raises a RuntimeError if the string is modified while substituting
+fail:String#sub with pattern and block sets $~ for access from the block
+fail:String#sub with pattern and block restores $~ after leaving the block
+fail:String#sub with pattern and block sets $~ to MatchData of last match and nil when there's none for access from outside
+fail:String#sub with pattern and block doesn't raise a RuntimeError if the string is modified while substituting
+fail:String#sub! with pattern and block raises a RuntimeError if the string is modified while substituting

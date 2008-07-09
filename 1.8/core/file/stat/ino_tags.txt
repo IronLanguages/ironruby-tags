@@ -1,1 +1,2 @@
 fails:File::Stat#ino should be able to determine the ino on a File::Stat object
+fail:File::Stat#ino should be able to determine the ino on a File::Stat object

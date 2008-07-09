@@ -1,2 +1,4 @@
 fails:File.zero? returns true for NUL
 fails:File.zero? returns false if the file does not exist
+fail:File.zero? returns true for NUL
+fail:File.zero? returns false if the file does not exist

@@ -22,3 +22,27 @@ fails:IO#syswrite on a file writes all of the string's bytes but does not buffer
 fails:IO#syswrite on a file warns if called immediately after a buffered IO#write
 fails:IO#syswrite on a file does not warn if called after IO#write with intervening IO#sysread
 fails:IO#syswrite on a file writes to the actual file position when called after buffered IO#read
+fail:IO#syswrite on a file coerces the argument to a string using to_s
+fail:IO#syswrite on a file checks if the file is writable if writing more than zero bytes
+fail:IO#syswrite on a file returns the number of bytes written
+fail:IO#syswrite on a file invokes to_s on non-String argument
+fail:IO#syswrite on a file writes all of the string's bytes without buffering if mode is sync
+fail:IO#syswrite on a file does not warn if called after IO#read
+fail:IO#syswrite on a file advances the file position by the count of given bytes
+fail:IO#syswrite on a file raises IOError on closed stream
+fail:IO#syswrite on a file writes all of the string's bytes but does not buffer them
+fail:IO#syswrite on a file warns if called immediately after a buffered IO#write
+fail:IO#syswrite on a file does not warn if called after IO#write with intervening IO#sysread
+fail:IO#syswrite on a file writes to the actual file position when called after buffered IO#read
+fail:IO#syswrite on a file coerces the argument to a string using to_s
+fail:IO#syswrite on a file checks if the file is writable if writing more than zero bytes
+fail:IO#syswrite on a file returns the number of bytes written
+fail:IO#syswrite on a file invokes to_s on non-String argument
+fail:IO#syswrite on a file writes all of the string's bytes without buffering if mode is sync
+fail:IO#syswrite on a file does not warn if called after IO#read
+fail:IO#syswrite on a file advances the file position by the count of given bytes
+fail:IO#syswrite on a file raises IOError on closed stream
+fail:IO#syswrite on a file writes all of the string's bytes but does not buffer them
+fail:IO#syswrite on a file warns if called immediately after a buffered IO#write
+fail:IO#syswrite on a file does not warn if called after IO#write with intervening IO#sysread
+fail:IO#syswrite on a file writes to the actual file position when called after buffered IO#read

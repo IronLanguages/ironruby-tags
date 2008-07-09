@@ -1,2 +1,4 @@
 fails:Kernel#chomp is a private method
 fails:Kernel#chomp! is a private method
+fail:Kernel#chomp is a private method
+fail:Kernel#chomp! is a private method

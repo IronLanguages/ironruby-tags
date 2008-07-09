@@ -1,3 +1,6 @@
 fails:Module#attr_writer creates a setter for each given attribute name
 fails:Module#attr_writer creates a setter for an attribute name given as a Fixnum
 fails:Module#attr_writer converts non string/symbol/fixnum names to strings using to_str
+fail:Module#attr_writer creates a setter for each given attribute name
+fail:Module#attr_writer creates a setter for an attribute name given as a Fixnum
+fail:Module#attr_writer converts non string/symbol/fixnum names to strings using to_str

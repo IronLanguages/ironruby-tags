@@ -1,2 +1,4 @@
 fails:FileTest.writable? returns true if named file is writable by the effective user id of the process, otherwise false
 fails:FileTest.writable? returns false if the file does not exist
+fail:FileTest.writable? returns true if named file is writable by the effective user id of the process, otherwise false
+fail:FileTest.writable? returns false if the file does not exist

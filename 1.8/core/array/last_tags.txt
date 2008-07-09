@@ -1,1 +1,2 @@
 fails:Array#last does not return subclass instance on Array subclasses
+fail:Array#last does not return subclass instance on Array subclasses

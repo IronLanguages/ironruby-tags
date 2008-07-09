@@ -7,3 +7,9 @@ fails:Kernel#sleep pauses execution indefinitely if not given a duration
 fails:Kernel#sleep returns the rounded number of seconds asleep
 fails:Kernel#sleep raises a TypeError when passed a non-numeric duration
 fails:Kernel#sleep pauses execution indefinitely if not given a duration
+fail:Kernel#sleep returns the rounded number of seconds asleep
+fail:Kernel#sleep raises a TypeError when passed a non-numeric duration
+fail:Kernel#sleep pauses execution indefinitely if not given a duration
+fail:Kernel#sleep returns the rounded number of seconds asleep
+fail:Kernel#sleep raises a TypeError when passed a non-numeric duration
+fail:Kernel#sleep pauses execution indefinitely if not given a duration

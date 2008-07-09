@@ -1,1 +1,2 @@
 fails:Array#rindex does not fail when removing elements from block
+fail:Array#rindex does not fail when removing elements from block

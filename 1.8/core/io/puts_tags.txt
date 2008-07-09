@@ -8,3 +8,13 @@ fails:IO#puts writes a newline after objects that do not end in newlines
 fails:IO#puts does not write a newline after objects that end in newlines
 fails:IO#puts ignores the $/ separator global
 fails:IO#puts ignores the $/ separator global
+fail:IO#puts writes just a newline when given just a newline
+fail:IO#puts writes nil with a newline when given nil as an arg
+fail:IO#puts calls to_s before writing non-string objects
+fail:IO#puts writes each arg if given several
+fail:IO#puts flattens a nested array before writing it
+fail:IO#puts writes [...] for a recursive array arg
+fail:IO#puts writes a newline after objects that do not end in newlines
+fail:IO#puts does not write a newline after objects that end in newlines
+fail:IO#puts ignores the $/ separator global
+fail:IO#puts ignores the $/ separator global

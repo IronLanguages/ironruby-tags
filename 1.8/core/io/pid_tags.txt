@@ -1,2 +1,4 @@
 fails:IO#pid returns the ID of a process associated with stream
 fails:IO#pid raises IOError on closed stream
+fail:IO#pid returns the ID of a process associated with stream
+fail:IO#pid raises IOError on closed stream

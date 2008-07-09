@@ -1,1 +1,2 @@
 fails:Bignum#& returns self bitwise AND other
+fail:Bignum#& returns self bitwise AND other

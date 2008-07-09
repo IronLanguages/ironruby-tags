@@ -1,2 +1,4 @@
 fails:String#scan with pattern and block sets $~ for access from the block
 fails:String#scan with pattern and block restores $~ after leaving the block
+fail:String#scan with pattern and block sets $~ for access from the block
+fail:String#scan with pattern and block restores $~ after leaving the block

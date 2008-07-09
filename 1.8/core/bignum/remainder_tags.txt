@@ -1,1 +1,2 @@
 fails:Bignum#remainder returns the remainder of dividing self by other
+fail:Bignum#remainder returns the remainder of dividing self by other

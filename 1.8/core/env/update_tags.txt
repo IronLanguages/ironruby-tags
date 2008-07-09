@@ -1,1 +1,2 @@
 fails:ENV.update yields key, the old value and the new value when replacing entries
+fail:ENV.update yields key, the old value and the new value when replacing entries

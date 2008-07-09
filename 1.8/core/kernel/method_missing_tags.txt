@@ -1,2 +1,4 @@
 fails:Kernel#method_missing is called when a private method is called
 fails:Kernel#method_missing is called when a protected method is called
+fail:Kernel#method_missing is called when a private method is called
+fail:Kernel#method_missing is called when a protected method is called

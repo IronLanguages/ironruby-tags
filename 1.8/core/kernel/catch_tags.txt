@@ -1,1 +1,2 @@
 fails:Kernel#catch raises unless the thrown name is known
+fail:Kernel#catch raises unless the thrown name is known

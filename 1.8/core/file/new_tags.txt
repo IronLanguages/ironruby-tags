@@ -13,3 +13,13 @@ fails:File.new create a new file when use File::WRONLY|File::TRUNC mode
 fails:File.new coerces filename using to_str
 fails:File.new expected errors 
 fails:File.new can't alter mode or permissions when opening a file
+fail:File.new return a new File with modus num and permissions
+fail:File.new creates the file and returns writable descriptor when called with 'w' mode and r-o permissions
+fail:File.new opens the existing file, does not change permissions even when they are specified
+fail:File.new return a new File with modus fd 
+fail:File.new raises an Errorno::EEXIST if the file exists when create a new file with File::CREAT|File::EXCL
+fail:File.new raises an Errno::EINVAL error with File::APPEND
+fail:File.new raises an Errno::EINVAL error with File::RDONLY|File::APPEND
+fail:File.new coerces filename using to_str
+fail:File.new expected errors 
+fail:File.new can't alter mode or permissions when opening a file

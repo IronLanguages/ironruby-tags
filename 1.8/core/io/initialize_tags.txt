@@ -4,3 +4,9 @@ fails:IO#initialize raises a TypeError when fd is an IO
 fails:IO#initialize raises a TypeError when given a non-integer
 fails:IO#initialize raises IOError on closed stream
 fails:IO#initialize raises an Errno::EBADF when given an invalid file descriptor
+fail:IO#initialize succeeds when fd is a Fixnum
+fail:IO#initialize succeeds when fd responds to #to_int
+fail:IO#initialize raises a TypeError when fd is an IO
+fail:IO#initialize raises a TypeError when given a non-integer
+fail:IO#initialize raises IOError on closed stream
+fail:IO#initialize raises an Errno::EBADF when given an invalid file descriptor

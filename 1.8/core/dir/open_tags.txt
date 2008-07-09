@@ -1,3 +1,6 @@
 fails:Dir.open raises a SystemCallError if the directory does not exist
 fails:Dir.open returns the value of the block if a block is given
 fails:Dir.open closes the Dir instance when the block exits if given a block
+fail:Dir.open raises a SystemCallError if the directory does not exist
+fail:Dir.open returns the value of the block if a block is given
+fail:Dir.open closes the Dir instance when the block exits if given a block

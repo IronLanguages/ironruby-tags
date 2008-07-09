@@ -10,3 +10,15 @@ fails:Kernel#gsub with a pattern and replacement accepts objects which respond t
 fails:Kernel#gsub with a pattern and replacement replaces \1 sequences with the regexp's corresponding capture
 fails:Kernel#gsub with pattern and block acts similarly to using $_.gsub
 fails:Kernel#gsub! is a private method
+fail:Kernel#gsub is a private method
+fail:Kernel#gsub raises a TypeError if $_ is not a String
+fail:Kernel#gsub when matches sets $_ to a new string, leaving the former value unaltered
+fail:Kernel#gsub returns a string with the same contents as $_ after the operation
+fail:Kernel#gsub accepts Regexps as patterns
+fail:Kernel#gsub accepts Strings as patterns, treated literally
+fail:Kernel#gsub accepts objects which respond to #to_str as patterns and treats them as strings
+fail:Kernel#gsub with a pattern and replacement accepts strings for replacement
+fail:Kernel#gsub with a pattern and replacement accepts objects which respond to #to_str for replacement
+fail:Kernel#gsub with a pattern and replacement replaces \1 sequences with the regexp's corresponding capture
+fail:Kernel#gsub with pattern and block acts similarly to using $_.gsub
+fail:Kernel#gsub! is a private method

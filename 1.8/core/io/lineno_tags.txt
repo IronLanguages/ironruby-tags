@@ -3,3 +3,8 @@ fails:IO#lineno= raises IOError on closed stream
 fails:IO#lineno= invokes to_int on non-numeric arguments
 fails:IO#lineno= raises TypeError on nil argument
 fails:IO#lineno= does not change $. until next read
+fail:IO#lineno raises IOError on closed stream
+fail:IO#lineno= raises IOError on closed stream
+fail:IO#lineno= invokes to_int on non-numeric arguments
+fail:IO#lineno= raises TypeError on nil argument
+fail:IO#lineno= does not change $. until next read

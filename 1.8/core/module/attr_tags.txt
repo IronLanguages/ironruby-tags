@@ -2,3 +2,7 @@ fails:Module#attr creates a getter for the given attribute name
 fails:Module#attr creates a setter for the given attribute name if writable is true
 fails:Module#attr creates a getter and setter for the given attribute name if called with and without writeable is true
 fails:Module#attr converts non string/symbol/fixnum names to strings using to_str
+fail:Module#attr creates a getter for the given attribute name
+fail:Module#attr creates a setter for the given attribute name if writable is true
+fail:Module#attr creates a getter and setter for the given attribute name if called with and without writeable is true
+fail:Module#attr converts non string/symbol/fixnum names to strings using to_str

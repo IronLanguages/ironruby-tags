@@ -6,3 +6,11 @@ fails:Time.gm handles float arguments
 fails:Time.gm should accept various year ranges
 fails:Time.gm throws ArgumentError for out of range values
 fails:Time.gm throws ArgumentError for invalid number of arguments
+fail:Time.gm creates a time based on given values, interpreted as UTC (GMT)
+fail:Time.gm creates a time based on given C-style gmtime arguments, interpreted as UTC (GMT)
+fail:Time.gm handles string-like second argument
+fail:Time.gm handles string arguments
+fail:Time.gm handles float arguments
+fail:Time.gm should accept various year ranges
+fail:Time.gm throws ArgumentError for out of range values
+fail:Time.gm throws ArgumentError for invalid number of arguments

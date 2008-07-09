@@ -1,1 +1,2 @@
 fails:Dir#each returns the directory which remains open
+fail:Dir#each returns the directory which remains open

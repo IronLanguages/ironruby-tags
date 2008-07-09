@@ -5,3 +5,10 @@ fails:File.join handles middle parts edge cases
 fails:File.join handles recursive arrays
 fails:File.join raises a TypeError exception when args are nil
 fails:File.join calls #to_str
+fail:File.join joins parts using File::ALT_SEPARATOR on windows
+fail:File.join handles leading parts edge cases
+fail:File.join handles trailing parts edge cases
+fail:File.join handles middle parts edge cases
+fail:File.join handles recursive arrays
+fail:File.join raises a TypeError exception when args are nil
+fail:File.join calls #to_str

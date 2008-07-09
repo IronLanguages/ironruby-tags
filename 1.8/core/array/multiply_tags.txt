@@ -1,1 +1,2 @@
 fails:Array#* returns subclass instance with Array subclasses
+fail:Array#* returns subclass instance with Array subclasses

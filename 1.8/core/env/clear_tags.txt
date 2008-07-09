@@ -1,1 +1,2 @@
 fails:ENV.clear deletes all environment variables
+fail:ENV.clear deletes all environment variables

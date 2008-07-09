@@ -1,1 +1,2 @@
 fails:Module#name returns the name of self
+fail:Module#name returns the name of self

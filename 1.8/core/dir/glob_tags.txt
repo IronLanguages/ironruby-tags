@@ -7,3 +7,11 @@ fails:Dir.glob orders directory-based entries before files when a glob matches b
 fails:Dir.glob matches multiple recursives
 fails:Dir.glob recursively matches any subdirectories except './' or '../' with '**/' and option File::FNM_DOTMATCH
 fails:Dir.glob matches the literal character '\' with option File::FNM_NOESCAPE
+fail:Dir.glob matches regexp special [
+fail:Dir.glob matches regexp special }
+fail:Dir.glob recursively matches any nondot subdirectories with '**/'
+fail:Dir.glob matches special characters by escaping with a backslash with '\<character>'
+fail:Dir.glob recursively matches directories with '**/<characters>'
+fail:Dir.glob matches multiple recursives
+fail:Dir.glob recursively matches any subdirectories except './' or '../' with '**/' and option File::FNM_DOTMATCH
+fail:Dir.glob matches the literal character '\' with option File::FNM_NOESCAPE

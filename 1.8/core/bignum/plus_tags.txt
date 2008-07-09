@@ -1,1 +1,2 @@
 fails:Bignum#+ returns self plus the given Integer
+fail:Bignum#+ returns self plus the given Integer

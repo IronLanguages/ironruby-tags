@@ -1,2 +1,4 @@
 fails:Module#extend_object extends the given object with constants and methods of self
 fails:Module#extend_object is called when an object gets extended with self
+fail:Module#extend_object extends the given object with constants and methods of self
+fail:Module#extend_object is called when an object gets extended with self

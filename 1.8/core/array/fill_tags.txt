@@ -2,3 +2,6 @@
 fails:Array#fill raises an ArgumentError if given an index and a negative count whose absolute value exceeds the index
 fails:Array#fill raises an ArgumentError if the wrong number of arguments is given
 fails:Array#fill raises an ArgumentError or RangeError for too-large sizes
+fail:Array#fill raises an ArgumentError if given an index and a negative count whose absolute value exceeds the index
+fail:Array#fill raises an ArgumentError if the wrong number of arguments is given
+fail:Array#fill raises an ArgumentError or RangeError for too-large sizes

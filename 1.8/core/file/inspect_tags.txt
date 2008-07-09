@@ -1,1 +1,2 @@
 fails:File#inspect returns string that contains 'closed' when invoked on closed file
+fail:File#inspect returns string that contains 'closed' when invoked on closed file

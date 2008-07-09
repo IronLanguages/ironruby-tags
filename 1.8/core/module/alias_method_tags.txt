@@ -1,2 +1,4 @@
 fails:Module#alias_method retains method visibility
 fails:Module#alias_method is a private method
+fail:Module#alias_method retains method visibility
+fail:Module#alias_method is a private method

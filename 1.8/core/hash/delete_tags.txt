@@ -1,1 +1,2 @@
 fails:Hash#delete calls eql? on colliding keys it finds
+fail:Hash#delete calls eql? on colliding keys it finds

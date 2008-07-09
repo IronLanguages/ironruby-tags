@@ -1,1 +1,2 @@
 fails:Array#fetch passes the original index argument object to the block, not the converted Integer
+fail:Array#fetch passes the original index argument object to the block, not the converted Integer
