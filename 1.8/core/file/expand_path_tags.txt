@@ -1,0 +1,1 @@
+fail:File.expand_path converts a pathname to an absolute pathname, using ~ (home) as base
