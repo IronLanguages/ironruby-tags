@@ -10,3 +10,9 @@ fail:IO#rewind raises IOError on closed stream
 fail:IO#rewind positions the instance to the beginning of input
 fail:IO#rewind sets lineno to 0
 fail:IO#rewind raises IOError on closed stream
+fail:IO#rewind positions the instance to the beginning of input
+fail:IO#rewind sets lineno to 0
+fail:IO#rewind raises IOError on closed stream
+fail:IO#rewind positions the instance to the beginning of input
+fail:IO#rewind sets lineno to 0
+fail:IO#rewind raises IOError on closed stream

@@ -6,3 +6,7 @@ fail:IO#tty? returns true if this stream is a terminal device (TTY)
 fail:IO#tty? raises IOError on closed stream
 fail:IO#tty? returns true if this stream is a terminal device (TTY)
 fail:IO#tty? raises IOError on closed stream
+fail:IO#tty? returns true if this stream is a terminal device (TTY)
+fail:IO#tty? raises IOError on closed stream
+fail:IO#tty? returns true if this stream is a terminal device (TTY)
+fail:IO#tty? raises IOError on closed stream

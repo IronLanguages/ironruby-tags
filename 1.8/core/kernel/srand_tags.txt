@@ -13,3 +13,9 @@ fail:Kernel.srand srand should seed the RNG correctly and repeatably
 fail:Kernel.srand is a private method
 fail:Kernel.srand srand should return the previous seed value
 fail:Kernel.srand srand should seed the RNG correctly and repeatably
+fail:Kernel.srand is a private method
+fail:Kernel.srand srand should return the previous seed value
+fail:Kernel.srand srand should seed the RNG correctly and repeatably
+fail:Kernel.srand is a private method
+fail:Kernel.srand srand should return the previous seed value
+fail:Kernel.srand srand should seed the RNG correctly and repeatably

@@ -30,3 +30,19 @@ fail:IO#reopen reassociates self with a new stream opened on path, after some wr
 fail:IO#reopen reassociates self with the I/O stream specified as an argument, after some reads
 fail:IO#reopen reassociates self with the I/O stream specified as an argument, after some sysreads
 fail:IO#reopen reassociates self with the I/O stream specified as an argument, after some writes
+fail:IO#reopen raises IOError on closed stream
+fail:IO#reopen reassociates self to another file/descriptor but returns self
+fail:IO#reopen reassociates self with a new stream opened on path, when self in initial state
+fail:IO#reopen reassociates self with a new stream opened on path, after some reads
+fail:IO#reopen reassociates self with a new stream opened on path, after some writes
+fail:IO#reopen reassociates self with the I/O stream specified as an argument, after some reads
+fail:IO#reopen reassociates self with the I/O stream specified as an argument, after some sysreads
+fail:IO#reopen reassociates self with the I/O stream specified as an argument, after some writes
+fail:IO#reopen raises IOError on closed stream
+fail:IO#reopen reassociates self to another file/descriptor but returns self
+fail:IO#reopen reassociates self with a new stream opened on path, when self in initial state
+fail:IO#reopen reassociates self with a new stream opened on path, after some reads
+fail:IO#reopen reassociates self with a new stream opened on path, after some writes
+fail:IO#reopen reassociates self with the I/O stream specified as an argument, after some reads
+fail:IO#reopen reassociates self with the I/O stream specified as an argument, after some sysreads
+fail:IO#reopen reassociates self with the I/O stream specified as an argument, after some writes

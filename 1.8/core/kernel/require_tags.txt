@@ -38,3 +38,19 @@ fail:Kernel#require appends any non-ruby extensioned file with .rb/.<ext> in tha
 fail:Kernel#require produces __FILE__ as the given filename and __LINE__ as the source line number
 fail:Shell expansion in Kernel#require expands a preceding ~/ to the user's home directory for building the path to search
 fail:Shell expansion in Kernel#require adds the path to $LOADED_FEATURES
+fail:Kernel#require does not expand/resolve qualified files against $LOAD_PATH
+fail:Kernel#require appends a file with no extension with .rb/.<ext> in that order to locate file
+fail:Kernel#require prefers to use .rb over .<ext> if given non-extensioned file and both exist
+fail:Kernel#require will not load file.<ext> when given 'file' if file.rb already loaded
+fail:Kernel#require appends any non-ruby extensioned file with .rb/.<ext> in that order to locate file
+fail:Kernel#require produces __FILE__ as the given filename and __LINE__ as the source line number
+fail:Shell expansion in Kernel#require expands a preceding ~/ to the user's home directory for building the path to search
+fail:Shell expansion in Kernel#require adds the path to $LOADED_FEATURES
+fail:Kernel#require does not expand/resolve qualified files against $LOAD_PATH
+fail:Kernel#require appends a file with no extension with .rb/.<ext> in that order to locate file
+fail:Kernel#require prefers to use .rb over .<ext> if given non-extensioned file and both exist
+fail:Kernel#require will not load file.<ext> when given 'file' if file.rb already loaded
+fail:Kernel#require appends any non-ruby extensioned file with .rb/.<ext> in that order to locate file
+fail:Kernel#require produces __FILE__ as the given filename and __LINE__ as the source line number
+fail:Shell expansion in Kernel#require expands a preceding ~/ to the user's home directory for building the path to search
+fail:Shell expansion in Kernel#require adds the path to $LOADED_FEATURES

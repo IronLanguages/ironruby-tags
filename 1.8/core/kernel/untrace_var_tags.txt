@@ -3,3 +3,5 @@ fails:Kernel#untrace_var is a private method
 fails:Kernel#untrace_var is a private method
 fail:Kernel#untrace_var is a private method
 fail:Kernel#untrace_var is a private method
+fail:Kernel#untrace_var is a private method
+fail:Kernel#untrace_var is a private method

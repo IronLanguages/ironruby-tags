@@ -18,3 +18,6 @@ fail:IO#puts writes a newline after objects that do not end in newlines
 fail:IO#puts does not write a newline after objects that end in newlines
 fail:IO#puts ignores the $/ separator global
 fail:IO#puts ignores the $/ separator global
+fail:IO#puts writes just a newline when given no args
+fail:IO#puts ignores the $/ separator global
+fail:IO#puts ignores the $/ separator global

@@ -3,3 +3,5 @@ fails:Kernel#to_a is defined on Kernel
 fails:Kernel#to_a is defined on Kernel
 fail:Kernel#to_a is defined on Kernel
 fail:Kernel#to_a is defined on Kernel
+fail:Kernel#to_a is defined on Kernel
+fail:Kernel#to_a is defined on Kernel

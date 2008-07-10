@@ -34,3 +34,21 @@ fail:IO#read truncates the buffer when too big
 fail:IO#read returns the given buffer
 fail:IO#read coerces the second argument to string and uses it as a buffer
 fail:IO#read raises IOError on closed stream
+fail:IO.read treats second nil argument as no length limit
+fail:IO.read treats third nil argument as 0
+fail:IO#read consumes zero bytes when reading zero bytes
+fail:IO#read expands the buffer when too small
+fail:IO#read overwrites the buffer
+fail:IO#read truncates the buffer when too big
+fail:IO#read returns the given buffer
+fail:IO#read coerces the second argument to string and uses it as a buffer
+fail:IO#read raises IOError on closed stream
+fail:IO.read treats second nil argument as no length limit
+fail:IO.read treats third nil argument as 0
+fail:IO#read consumes zero bytes when reading zero bytes
+fail:IO#read expands the buffer when too small
+fail:IO#read overwrites the buffer
+fail:IO#read truncates the buffer when too big
+fail:IO#read returns the given buffer
+fail:IO#read coerces the second argument to string and uses it as a buffer
+fail:IO#read raises IOError on closed stream

@@ -18,3 +18,13 @@ fail:IO.select raises TypeError if supplied objects are not IO
 fail:IO.select raises TypeError if the specified timeout value is not Numeric
 fail:IO.select raises TypeError if the first three arguments are not Arrays
 fail:IO.select needs to be reviewed for spec completeness
+fail:IO.select invokes to_io on supplied objects that are not IO
+fail:IO.select raises TypeError if supplied objects are not IO
+fail:IO.select raises TypeError if the specified timeout value is not Numeric
+fail:IO.select raises TypeError if the first three arguments are not Arrays
+fail:IO.select needs to be reviewed for spec completeness
+fail:IO.select invokes to_io on supplied objects that are not IO
+fail:IO.select raises TypeError if supplied objects are not IO
+fail:IO.select raises TypeError if the specified timeout value is not Numeric
+fail:IO.select raises TypeError if the first three arguments are not Arrays
+fail:IO.select needs to be reviewed for spec completeness

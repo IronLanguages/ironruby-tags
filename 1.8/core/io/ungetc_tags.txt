@@ -34,3 +34,21 @@ fail:IO#ungetc adjusts the stream position
 fail:IO#ungetc makes subsequent unbuffered operations to raise IOError
 fail:IO#ungetc raises IOError when invoked on stream that was not yet read
 fail:IO#ungetc raises IOError on closed stream
+fail:IO#ungetc pushes back one character onto stream
+fail:IO#ungetc pushes back one character when invoked at the end of the stream
+fail:IO#ungetc pushes back one character when invoked at the start of the stream
+fail:IO#ungetc pushes back one character when invoked on empty stream
+fail:IO#ungetc affects EOF state
+fail:IO#ungetc adjusts the stream position
+fail:IO#ungetc makes subsequent unbuffered operations to raise IOError
+fail:IO#ungetc raises IOError when invoked on stream that was not yet read
+fail:IO#ungetc raises IOError on closed stream
+fail:IO#ungetc pushes back one character onto stream
+fail:IO#ungetc pushes back one character when invoked at the end of the stream
+fail:IO#ungetc pushes back one character when invoked at the start of the stream
+fail:IO#ungetc pushes back one character when invoked on empty stream
+fail:IO#ungetc affects EOF state
+fail:IO#ungetc adjusts the stream position
+fail:IO#ungetc makes subsequent unbuffered operations to raise IOError
+fail:IO#ungetc raises IOError when invoked on stream that was not yet read
+fail:IO#ungetc raises IOError on closed stream

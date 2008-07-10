@@ -3,3 +3,5 @@ fails:Kernel#scan is a private method
 fails:Kernel#scan is a private method
 fail:Kernel#scan is a private method
 fail:Kernel#scan is a private method
+fail:Kernel#scan is a private method
+fail:Kernel#scan is a private method

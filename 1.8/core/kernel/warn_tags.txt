@@ -23,3 +23,13 @@ fail:Kernel.warn calls #write on $stderr if $VERBOSE is true
 fail:Kernel.warn calls #write on $stderr if $VERBOSE is false
 fail:Kernel.warn does not call #write on $stderr if $VERBOSE is nil
 fail:Kernel.warn writes the default record seperator (\n) and NOT $/ to $stderr after the warning message
+fail:Kernel.warn is a private method
+fail:Kernel.warn calls #write on $stderr if $VERBOSE is true
+fail:Kernel.warn calls #write on $stderr if $VERBOSE is false
+fail:Kernel.warn does not call #write on $stderr if $VERBOSE is nil
+fail:Kernel.warn writes the default record seperator (\n) and NOT $/ to $stderr after the warning message
+fail:Kernel.warn is a private method
+fail:Kernel.warn calls #write on $stderr if $VERBOSE is true
+fail:Kernel.warn calls #write on $stderr if $VERBOSE is false
+fail:Kernel.warn does not call #write on $stderr if $VERBOSE is nil
+fail:Kernel.warn writes the default record seperator (\n) and NOT $/ to $stderr after the warning message

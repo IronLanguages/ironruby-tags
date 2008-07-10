@@ -21,3 +21,5 @@ fail:Kernel#puts writes a newline after objects that do not end in newlines
 fail:Kernel#puts does not write a newline after objects that end in newlines
 fail:Kernel#puts ignores the $/ separator global
 fail:Kernel#puts ignores the $/ separator global
+fail:Kernel#puts ignores the $/ separator global
+fail:Kernel#puts ignores the $/ separator global
