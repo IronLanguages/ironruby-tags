@@ -1,0 +1,13 @@
+io\binmode_tags.txt:1:critical:IO#binmode does not raise any errors on closed stream
+io\pos_tags.txt:1:critical:IO#pos raises IOError on closed stream
+io\tell_tags.txt:1:critical:IO#tell raises IOError on closed stream
+kernel\sleep_tags.txt:3:critical:Kernel#sleep pauses execution indefinitely if not given a duration
+string\to_i_tags.txt:3:critical(21158: Number parser not resiliant for where the negative sign appears):String#to_i requires that the sign if any appears before the base specifier
+thread\exit_tags.txt:1:critical(21171: Marshal exceptions thrown within thread blocks properly to calling thread):Thread#exit does not deadlock when called from within the thread while being joined from without
+thread\inspect_tags.txt:2:critical(bug 21157: Match MRI sleep / wakeup / run se mantics in IronRuby):Thread#inspect describes a sleeping thread
+thread\join_tags.txt:4:critical(21171: Marshal exceptions thrown within thread blocks properly to calling thread):Thread#join raises any exceptions encountered in the thread body
+thread\kill_tags.txt:1:critical(21171: Marshal exceptions thrown within thread blocks properly to calling thread):Thread#kill does not deadlock when called from within the thread while being joined from without
+thread\main_tags.txt:1:critical(21171: Marshal exceptions thrown within thread blocks properly to calling thread):Thread.main returns the main thread
+thread\stop_tags.txt:2:fails:Thread.stop resets Thread.critical to false
+thread\terminate_tags.txt:1:critical(21171: Marshal exceptions thrown within thread blocks properly to calling thread):Thread#terminate does not deadlock when called from within the thread while being joined from without
+threadgroup\list_tags.txt:1:critical:ThreadGroup#list returns the list of threads in the group
