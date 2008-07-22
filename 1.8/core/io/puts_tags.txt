@@ -21,3 +21,5 @@ fail:IO#puts ignores the $/ separator global
 fail:IO#puts writes just a newline when given no args
 fail:IO#puts ignores the $/ separator global
 fail:IO#puts ignores the $/ separator global
+fails:IO#puts writes just a newline when given no args
+fails:IO#puts ignores the $/ separator global

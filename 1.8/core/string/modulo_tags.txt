@@ -55,3 +55,4 @@ fail:String#% behaves as if calling Kernel#Float for %E arguments
 fail:String#% behaves as if calling Kernel#Float for %f arguments
 fail:String#% behaves as if calling Kernel#Float for %g arguments
 fail:String#% behaves as if calling Kernel#Float for %G arguments
+fails:String#% tries to convert the argument to Array by calling #to_ary

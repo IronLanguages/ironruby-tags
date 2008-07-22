@@ -23,3 +23,5 @@ fail:Kernel#puts ignores the $/ separator global
 fail:Kernel#puts ignores the $/ separator global
 fail:Kernel#puts ignores the $/ separator global
 fail:Kernel#puts ignores the $/ separator global
+fails:Kernel#puts ignores the $/ separator global
+fails:Kernel#puts ignores the $/ separator global

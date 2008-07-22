@@ -4,3 +4,7 @@ fails:Predefined global $_ is set at the method-scoped level rather than block-s
 fails:The predefined global constants includes DATA when main script contains __END__
 fails:The predefined global constants does not include DATA when main script contains no __END__
 fails:The predefined global constants includes NIL
+fails:Predefined global $stdout is the same as $defout
+fails:Predefined global $stdout is the same as $DEFAULT_OUTPUT from 'English' library
+fails:Predefined global $stdout raises TypeError error if assigned to nil
+fails:Predefined global $stdout raises TypeError error if assigned to object that doesn't respond to #write

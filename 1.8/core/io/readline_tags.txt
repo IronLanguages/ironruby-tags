@@ -4,3 +4,4 @@ fail:IO#readline raises IOError on closed stream
 fail:IO#readline raises IOError on closed stream
 fail:IO#readline raises IOError on closed stream
 fail:IO#readline raises IOError on closed stream
+fails:IO#readline raises IOError on closed stream

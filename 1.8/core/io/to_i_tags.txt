@@ -4,3 +4,4 @@ fail:IO#to_i raises IOError on closed stream
 fail:IO#to_i raises IOError on closed stream
 fail:IO#to_i raises IOError on closed stream
 fail:IO#to_i raises IOError on closed stream
+fails:IO#to_i raises IOError on closed stream

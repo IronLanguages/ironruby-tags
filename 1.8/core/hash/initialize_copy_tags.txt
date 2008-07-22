@@ -10,3 +10,4 @@ fail:Hash#initialize_copy checks whether the passed argument responds to #to_has
 fail:Hash#initialize_copy calls to_hash on hash subclasses
 fail:Hash#initialize_copy does not transfer default values
 fail:Hash#initialize_copy is private
+fails:Hash#initialize_copy raises a TypeError if called on a frozen instance

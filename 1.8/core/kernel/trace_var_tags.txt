@@ -5,3 +5,5 @@ fail:Kernel#trace_var is a private method
 fail:Kernel#trace_var is a private method
 fail:Kernel#trace_var is a private method
 fail:Kernel#trace_var is a private method
+fails:Kernel#trace_var is a private method
+fails:Kernel#trace_var is a private method
