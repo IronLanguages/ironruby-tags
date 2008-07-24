@@ -141,3 +141,7 @@ fail:Array#pack converts to BER-compressed integer with ('w')
 fail:Array#pack with count decreases result string by count chars with ('X')
 fail:Array#pack raises an ArgumentError if count greater than already generated string length with ('X')
 fail:Array#pack reuses last array element as often as needed to complete the string
+fails:Array#pack with ('w') converts to BER-compressed integer
+fails:Array#pack with ('w') raises an ArgumentError if the count is greater than the number of remaining array elements
+fails:Array#pack with ('w') calls to_int on non-integer values before packing
+fails:Array#pack with ('w') raises TypeError on nil and non-numeric arguments

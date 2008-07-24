@@ -38,3 +38,7 @@ fail:File.fnmatch? matches multiple directories with ** when flags includes File
 fail:File.fnmatch? raises a TypeError if the first and second arguments are not string-like
 fail:File.fnmatch? raises a TypeError if the third argument is not an Integer
 fail:File.fnmatch? does not raise a TypeError if the third argument can be coerced to an Integer
+fails:File.fnmatch returns false if '/' in pattern do not match '/' in path when flags includes FNM_PATHNAME
+fails:File.fnmatch returns true if '/' in pattern match '/' in path when flags includes FNM_PATHNAME
+fails:File.fnmatch? returns false if '/' in pattern do not match '/' in path when flags includes FNM_PATHNAME
+fails:File.fnmatch? returns true if '/' in pattern match '/' in path when flags includes FNM_PATHNAME

@@ -4,3 +4,7 @@ fails:IO#pos= raises IOError on closed stream
 fail:IO#pos raises IOError on closed stream
 fail:IO#pos= can handle any numerical argument without breaking
 fail:IO#pos= raises IOError on closed stream
+fails:IO#pos gets the offset
+fails:IO#pos resets #eof?
+fails:IO#pos= sets the offset
+critical:IO#pos raises IOError on closed stream

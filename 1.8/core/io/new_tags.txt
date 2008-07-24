@@ -14,3 +14,9 @@ fail:IO#new raises EBADF if the file descriptor given is not a valid and open on
 fail:IO#new raises EINVAL if mode is not compatible with the descriptor's current mode
 fail:IO.new raises IOError on closed stream
 fail:IO.new emits a warning if given a block
+fails:IO.new returns a new IO object
+fails:IO.new takes an Integer or #to_int argument as the descriptor to open
+fails:IO.new associates new IO with the old descriptor so each IO directly affects the other
+fails:IO.new raises TypeError if not given an Integer or #to_int
+fails:IO.new raises EBADF if the file descriptor given is not a valid and open one
+fails:IO.new raises EINVAL if mode is not compatible with the descriptor's current mode

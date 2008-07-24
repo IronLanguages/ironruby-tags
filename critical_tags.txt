@@ -8,8 +8,11 @@ core\thread\inspect_tags.txt:2:critical:Thread#inspect describes a sleeping thre
 core\thread\join_tags.txt:4:critical:Thread#join raises any exceptions encountered in the thread body
 core\thread\kill_tags.txt:1:critical:Thread#kill does not deadlock when called from within the thread while being joined from without
 core\thread\main_tags.txt:1:critical:Thread.main returns the main thread
-core\thread\stop_tags.txt:2:fails:Thread.stop resets Thread.critical to false
+core\thread\stop_tags.txt:2:critical:Thread.stop resets Thread.critical to false
 core\thread\terminate_tags.txt:1:critical:Thread#terminate does not deadlock when called from within the thread while being joined from without
 core\threadgroup\list_tags.txt:1:critical:ThreadGroup#list returns the list of threads in the group
 language\return_tags.txt:0:critical:The return statement raises a ThreadError if used to exit a thread
 language\throw_tags.txt:0:critical:The throw keyword raises a ThreadError if used to exit a thread
+core\thread\status_tags.txt:0:critical:Thread#status returns nil if thread terminates with exception
+core\thread\status_tags.txt:0:critical:Thread#status reports threads as running and returns false on correct termination
+core\thread\stop_tags.txt:0:critical:Thread#stop? reports if a thread has stopped due to sleeping

@@ -10,3 +10,4 @@ fail:Regexp.compile given a String enables SJIS encoding if third argument is 's
 fail:Regexp.compile given a String enables UTF-8 encoding if third argument is 'u' or 'utf8' (case-insensitive)
 fail:Regexp.compile given a String disables multibyte support if third argument is 'n' or 'none' (case insensitive)
 fail:Regexp.compile given a Regexp does not honour options given as additional arguments
+fails:Range.compile works by default for subclasses with overridden #initialize

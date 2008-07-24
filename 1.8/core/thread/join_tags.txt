@@ -6,3 +6,4 @@ fail:Thread#join returns the thread when it is finished when given a timeout
 fail:Thread#join returns nil if it is not finished when given a timeout
 fail:Thread#join accepts a floating point timeout length
 fail:Thread#join raises any exceptions encountered in the thread body
+critical:Thread#join raises any exceptions encountered in the thread body

@@ -1,2 +1,3 @@
 fails:Kernel#catch raises unless the thrown name is known
 fail:Kernel#catch raises unless the thrown name is known
+fails:Kernel.catch raises TypeError if the argument is not a symbol

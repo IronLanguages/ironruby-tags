@@ -1,2 +1,3 @@
 fails:File.split splits the given string into a directory and a file component and returns them in a two-element array. (edge cases)
 fail:File.split splits the given string into a directory and a file component and returns them in a two-element array. (edge cases)
+fails:File.split splits the given string into a directory and a file component and returns them in a two-element array. (windows)

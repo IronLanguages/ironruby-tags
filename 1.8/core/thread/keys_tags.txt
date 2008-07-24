@@ -1,2 +1,2 @@
-fails:Thread#keys returns an array of the names of the thread-local variables as symbols
 fail:Thread#keys returns an array of the names of the thread-local variables as symbols
+fails:Thread#keys returns an array of the names of the thread-local variables as symbols

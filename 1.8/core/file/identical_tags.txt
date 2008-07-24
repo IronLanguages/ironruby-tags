@@ -8,3 +8,4 @@ fail:File.identical? return true if they are identical
 fail:File.identical? raises an ArgumentError if not passed two arguments
 fail:File.identical? raises a TypeError if not passed String types
 fail:File.identical? identical? should return true if both named files are identical
+fails:File.identical? returns true if both named files are identical

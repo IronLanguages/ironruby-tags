@@ -1,2 +1,3 @@
 fails:Thread.main returns the main thread
 fail:Thread.main returns the main thread
+critical:Thread.main returns the main thread
