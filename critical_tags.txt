@@ -16,3 +16,12 @@ language\throw_tags.txt:0:critical:The throw keyword raises a ThreadError if use
 core\thread\status_tags.txt:0:critical:Thread#status returns nil if thread terminates with exception
 core\thread\status_tags.txt:0:critical:Thread#status reports threads as running and returns false on correct termination
 core\thread\stop_tags.txt:0:critical:Thread#stop? reports if a thread has stopped due to sleeping
+core\array\comparison_tags.txt:0:critical:Array#<=> properly handles recursive arrays
+core\array\eql_tags.txt:0:critical:Array#eql? properly handles recursive arrays
+core\array\equal_value_tags.txt:0:critical:Array#== properly handles recursive arrays
+core\array\hash_tags.txt:0:critical:Array#hash properly handles recursive arrays
+core\array\hash_tags.txt:0:critical:Array#hash properly handles recursive arrays
+core\array\intersection_tags.txt:0:critical:Array#& properly handles recursive arrays
+core\array\union_tags.txt:0:critical:Array#| properly handles recursive arrays
+core\array\uniq_tags.txt:0:critical:Array#uniq properly handles recursive arrays
+core\array\uniq_tags.txt:0:critical:Array#uniq! properly handles recursive arrays

@@ -1,2 +1,3 @@
 fails:Array#* returns subclass instance with Array subclasses
 fail:Array#* returns subclass instance with Array subclasses
+fails:Array#* properly handles recursive arrays

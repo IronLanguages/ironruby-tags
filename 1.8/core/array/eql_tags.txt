@@ -1,0 +1,1 @@
+critical:Array#eql? properly handles recursive arrays
