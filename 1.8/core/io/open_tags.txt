@@ -23,3 +23,4 @@ fails:IO.open associates new IO with the old descriptor so each IO directly affe
 fails:IO.open raises TypeError if not given an Integer or #to_int
 fails:IO.open raises EBADF if the file descriptor given is not a valid and open one
 fails:IO.open raises EINVAL if mode is not compatible with the descriptor's current mode
+fails:IO.open emits a warning if given a block

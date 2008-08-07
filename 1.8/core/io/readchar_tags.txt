@@ -22,3 +22,6 @@ fails:IO#readchar raises IOError on closed stream
 fails:IO#readchar returns the next byte from the stream
 fails:IO#readchar raises EOFError when reaches the end of the stream
 fails:IO#readchar raises IOError on closed stream
+fails:IO#readchar returns the next byte from the stream
+fails:IO#readchar raises EOFError when reaches the end of the stream
+fails:IO#readchar raises IOError on closed stream

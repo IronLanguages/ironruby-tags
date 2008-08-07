@@ -1,0 +1,1 @@
+fails:Proc.new without a block raises an ArgumentError if invoked from within a method with no block

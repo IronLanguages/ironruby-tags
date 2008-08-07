@@ -14,3 +14,5 @@ fails:IO#write on a file writes all of the string's bytes but buffers them
 fails:IO#write on a file does not check if the file is writable if writing zero bytes
 fails:IO#write on a file writes all of the string's bytes but buffers them
 fails:IO#write on a file does not check if the file is writable if writing zero bytes
+fails:IO#write on a file writes all of the string's bytes but buffers them
+fails:IO#write on a file does not check if the file is writable if writing zero bytes
