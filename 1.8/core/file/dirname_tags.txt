@@ -1,12 +1,5 @@
 fails:File.dirname dirname should return all the components of filename except the last one
-fails:File.dirname return all the components of filename except the last one (edge cases)
 fails:File.dirname raises a TypeError if not passed a String type
 fails:File.dirname return the return all the components of filename except the last one (Windows format)
 fails:File.dirname return the return all the components of filename except the last one (windows unc)
 fails:File.dirname return the return all the components of filename except the last one (forward_slash)
-fail:File.dirname dirname should return all the components of filename except the last one
-fail:File.dirname return all the components of filename except the last one (edge cases)
-fail:File.dirname raises a TypeError if not passed a String type
-fail:File.dirname return the return all the components of filename except the last one (Windows format)
-fail:File.dirname return the return all the components of filename except the last one (windows unc)
-fail:File.dirname return the return all the components of filename except the last one (forward_slash)
