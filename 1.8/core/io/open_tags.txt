@@ -24,3 +24,4 @@ fails:IO.open raises TypeError if not given an Integer or #to_int
 fails:IO.open raises EBADF if the file descriptor given is not a valid and open one
 fails:IO.open raises EINVAL if mode is not compatible with the descriptor's current mode
 fails:IO.open emits a warning if given a block
+fails:IO.open cannot open an IO with incompatible flags

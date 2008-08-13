@@ -2,3 +2,5 @@ fails:Bignum#>> returns 0 when the given argument is a Bignum and self is positi
 fails:Bignum#>> returns -1 when the given argument is a Bignum and self is negative
 fail:Bignum#>> returns 0 when the given argument is a Bignum and self is positive
 fail:Bignum#>> returns -1 when the given argument is a Bignum and self is negative
+fails:Bignum#>> tries to convert the given argument to an Integer using to_int
+fails:Bignum#>> raises a TypeError when the given argument can't be converted to Integer
