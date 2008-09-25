@@ -1,1 +1,0 @@
-fails:String#slice with String taints resulting strings when other is tainted

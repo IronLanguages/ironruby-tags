@@ -8,20 +8,3 @@ fails:Kernel#puts writes [...] for a recursive array arg
 fails:Kernel#puts writes a newline after objects that do not end in newlines
 fails:Kernel#puts does not write a newline after objects that end in newlines
 fails:Kernel#puts ignores the $/ separator global
-fails:Kernel#puts ignores the $/ separator global
-fails:Kernel#puts ignores the $/ separator global
-fail:Kernel#puts is a private method
-fail:Kernel#puts writes just a newline when given no args
-fail:Kernel#puts writes nil with a newline when given nil as an arg
-fail:Kernel#puts calls to_s before writing non-string objects
-fail:Kernel#puts writes each arg if given several
-fail:Kernel#puts flattens a nested array before writing it
-fail:Kernel#puts writes [...] for a recursive array arg
-fail:Kernel#puts writes a newline after objects that do not end in newlines
-fail:Kernel#puts does not write a newline after objects that end in newlines
-fail:Kernel#puts ignores the $/ separator global
-fail:Kernel#puts ignores the $/ separator global
-fail:Kernel#puts ignores the $/ separator global
-fail:Kernel#puts ignores the $/ separator global
-fails:Kernel#puts ignores the $/ separator global
-fails:Kernel#puts ignores the $/ separator global

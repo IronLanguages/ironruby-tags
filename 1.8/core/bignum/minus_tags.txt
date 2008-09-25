@@ -1,2 +1,0 @@
-fails:Bignum#- returns self minus the given Integer
-fail:Bignum#- returns self minus the given Integer

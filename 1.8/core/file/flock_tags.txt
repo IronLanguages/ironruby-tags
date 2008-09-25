@@ -1,2 +1,1 @@
 fails:File#flock should lock a file
-fail:File#flock should lock a file

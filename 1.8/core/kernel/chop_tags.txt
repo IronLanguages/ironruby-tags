@@ -1,4 +1,2 @@
 fails:Kernel#chop is a private method
 fails:Kernel#chop! is a private method
-fail:Kernel#chop is a private method
-fail:Kernel#chop! is a private method

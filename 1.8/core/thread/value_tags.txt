@@ -1,2 +1,1 @@
 fails:Thread#value returns the result of the block
-fail:Thread#value returns the result of the block

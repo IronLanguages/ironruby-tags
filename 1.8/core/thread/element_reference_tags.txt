@@ -1,2 +1,1 @@
 fails:Thread#[] raises exceptions on the wrong type of keys
-fail:Thread#[] raises exceptions on the wrong type of keys

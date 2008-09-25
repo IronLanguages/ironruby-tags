@@ -1,1 +1,1 @@
-fails:ARGF.file returns the current file object on each file
+critical:ARGF.file returns the current file object on each file

@@ -1,2 +1,1 @@
 fails:File::Stat#dev_minor returns the minor part of File::Stat#dev
-fail:File::Stat#dev_minor returns the minor part of File::Stat#dev

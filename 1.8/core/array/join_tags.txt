@@ -2,7 +2,3 @@ fails:Array#join tries to convert the passed seperator to a String using #to_str
 fails:Array#join checks whether the passed seperator responds to #to_str
 fails:Array#join does not process the separator if the array is empty
 fails:Array#join handles recursive arrays
-fail:Array#join tries to convert the passed seperator to a String using #to_str
-fail:Array#join checks whether the passed seperator responds to #to_str
-fail:Array#join does not process the separator if the array is empty
-fail:Array#join handles recursive arrays

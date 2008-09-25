@@ -1,2 +1,1 @@
 fails:ObjectSpace._id2ref converts an object id to a reference to the object
-fail:ObjectSpace._id2ref converts an object id to a reference to the object

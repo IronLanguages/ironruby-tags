@@ -1,3 +1,2 @@
 fails:Kernel.lambda raises an ArgumentError when given too many arguments
-fail:Kernel.lambda raises an ArgumentError when given too many arguments
 fails:Kernel.lambda raises an ArgumentError when given too few arguments

@@ -1,3 +1,0 @@
-fails:IO#binmode does not raise any errors on closed stream
-fail:IO#binmode does not raise any errors on closed stream
-critical:IO#binmode does not raise any errors on closed stream

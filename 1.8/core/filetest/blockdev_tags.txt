@@ -1,2 +1,1 @@
 fails:FileTest.blockdev? returns true/false depending if the named file is a block device
-fail:FileTest.blockdev? returns true/false depending if the named file is a block device

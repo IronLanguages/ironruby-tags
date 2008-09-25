@@ -1,16 +1,5 @@
 fails:File.basename return the last component of the filename
 fails:File.basename return the basename for unix suffix
+fails:File.basename raises a TypeError if the arguments are not String types
 fails:File.basename return the basename for windows
 fails:File.basename return basename windows forward slash
-fails:File.basename return the basename of a path (basic cases)
-fails:File.basename return an string
-fails:File.basename return the basename for unix format
-fails:File.basename return the basename for edge cases
-fails:File.basename raises a TypeError if the arguments are not String types
-fails:File.basename raises an ArgumentError if passed more than two arguments
-fails:File.basename return basename windows unc
-fails:File.basename return basename with windows suffix
-fail:File.basename return the last component of the filename
-fail:File.basename return the basename for unix suffix
-fail:File.basename return the basename for windows
-fail:File.basename return basename windows forward slash

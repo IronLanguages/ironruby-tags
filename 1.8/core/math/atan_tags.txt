@@ -1,4 +1,2 @@
 fails:Math.atan raises a TypeError if the argument is nil
 fails:Math.atan accepts any argument that can be coerced with Float()
-fail:Math.atan raises a TypeError if the argument is nil
-fail:Math.atan accepts any argument that can be coerced with Float()

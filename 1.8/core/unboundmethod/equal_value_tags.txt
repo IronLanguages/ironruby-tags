@@ -1,6 +1,3 @@
 fails:UnboundMethod#== returns false if same method but one extracted from a subclass
 fails:UnboundMethod#== returns false if same method but extracted from two different subclasses
 fails:UnboundMethod#== returns false if methods are the same but added from an included Module
-fail:UnboundMethod#== returns false if same method but one extracted from a subclass
-fail:UnboundMethod#== returns false if same method but extracted from two different subclasses
-fail:UnboundMethod#== returns false if methods are the same but added from an included Module

@@ -1,11 +1,4 @@
-fails:FileTest.identical? return a Boolean class
 fails:FileTest.identical? return true if they are identical
 fails:FileTest.identical? raises an ArgumentError if not passed two arguments
 fails:FileTest.identical? raises a TypeError if not passed String types
-fails:FileTest.identical? identical? should return true if both named files are identical
-fail:FileTest.identical? return a Boolean class
-fail:FileTest.identical? return true if they are identical
-fail:FileTest.identical? raises an ArgumentError if not passed two arguments
-fail:FileTest.identical? raises a TypeError if not passed String types
-fail:FileTest.identical? identical? should return true if both named files are identical
 fails:FileTest.identical? returns true if both named files are identical

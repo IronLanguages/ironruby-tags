@@ -1,2 +1,0 @@
-fails:Time#usec returns the microseconds for time
-fail:Time#usec returns the microseconds for time

@@ -1,2 +1,0 @@
-fails:Enumerable#grep grep with a block should return an array of elements === pattern passed through block
-fail:Enumerable#grep grep with a block should return an array of elements === pattern passed through block

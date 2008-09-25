@@ -3,8 +3,3 @@ fails:Array#sort does not call #<=> on elements when invoked with a block even i
 fails:Array#sort completes when supplied a block that always returns the same result
 fails:Array#sort! does not call #<=> on contained objects when invoked with a block
 fails:Array#sort! does not call #<=> on elements when invoked with a block even if Array is large (Rubinius #412)
-fail:Array#sort does not call #<=> on contained objects when invoked with a block
-fail:Array#sort does not call #<=> on elements when invoked with a block even if Array is large (Rubinius #412)
-fail:Array#sort completes when supplied a block that always returns the same result
-fail:Array#sort! does not call #<=> on contained objects when invoked with a block
-fail:Array#sort! does not call #<=> on elements when invoked with a block even if Array is large (Rubinius #412)

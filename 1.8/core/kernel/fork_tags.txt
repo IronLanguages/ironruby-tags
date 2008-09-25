@@ -1,2 +1,1 @@
 fails:Kernel#fork is a private method
-fail:Kernel#fork is a private method

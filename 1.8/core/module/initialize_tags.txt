@@ -1,2 +1,1 @@
 fails:Module#initialize accepts a block
-fail:Module#initialize accepts a block

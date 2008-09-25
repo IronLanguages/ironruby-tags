@@ -1,4 +1,2 @@
 fails:Math.exp raises a TypeError if the argument is nil
 fails:Math.exp accepts any argument that can be coerced with Float()
-fail:Math.exp raises a TypeError if the argument is nil
-fail:Math.exp accepts any argument that can be coerced with Float()

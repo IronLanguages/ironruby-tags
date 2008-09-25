@@ -1,2 +1,1 @@
 fails:Module#remove_const is a private method
-fail:Module#remove_const is a private method

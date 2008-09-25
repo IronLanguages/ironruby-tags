@@ -1,2 +1,1 @@
 fails:Module#=== returns true when the given Object's class includes self or when the given Object is extended by self
-fail:Module#=== returns true when the given Object's class includes self or when the given Object is extended by self

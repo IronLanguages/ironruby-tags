@@ -3,8 +3,3 @@ fails:Array.new tries to convert the passed arguments to Arrays using #to_ary
 fails:Array.new checks whether the passed argument responds to #to_ary
 fails:Array.new checks whether the passed argument responds to #to_int if they don't respond to #to_ary
 fails:Array.new calls to_ary on an argument before to_int
-fail:Array.new raises an ArgumentError when passed a negative size
-fail:Array.new tries to convert the passed arguments to Arrays using #to_ary
-fail:Array.new checks whether the passed argument responds to #to_ary
-fail:Array.new checks whether the passed argument responds to #to_int if they don't respond to #to_ary
-fail:Array.new calls to_ary on an argument before to_int

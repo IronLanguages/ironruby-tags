@@ -1,11 +1,3 @@
-fails:Proc#[] auto-explodes a single Array argument when called on a Proc created with Proc.new
-fails:Proc#[] raises an ArgumentError when called with too few arguments on a Proc created with Kernel#lambda or Kernel#proc
-fails:Proc#[] raises an ArgumentError when called with too many arguments on a Proc created with Kernel#lambda or Kernel#proc
-fails:Proc#[] treats a single Array argument as a single argument when called on a Proc created with Kernel#lambda or Kernel#proc
-fail:Proc#[] auto-explodes a single Array argument when called on a Proc created with Proc.new
-fail:Proc#[] raises an ArgumentError when called with too few arguments on a Proc created with Kernel#lambda or Kernel#proc
-fail:Proc#[] raises an ArgumentError when called with too many arguments on a Proc created with Kernel#lambda or Kernel#proc
-fail:Proc#[] treats a single Array argument as a single argument when called on a Proc created with Kernel#lambda or Kernel#proc
 fails:Proc#call on a Proc created with Proc.new auto-explodes a single Array argument
 fails:Proc#call on a Proc created with Kernel#lambda or Kernel#proc raises an ArgumentError when called with too few arguments
 fails:Proc#call on a Proc created with Kernel#lambda or Kernel#proc raises an ArgumentError when called with too many arguments

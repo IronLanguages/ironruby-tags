@@ -1,11 +1,3 @@
-fails:IO #print writes $_.to_s followed by $\ (if any) to the stream if no arguments given
-fails:IO #print writes obj.to_s followed by $\ (if any) to the stream when given one object
-fails:IO #print does not call obj.to_str
-fails:IO #print writes each obj.to_s to the stream and appends $\ (if any) given multiple objects
-fail:IO #print writes $_.to_s followed by $\ (if any) to the stream if no arguments given
-fail:IO #print writes obj.to_s followed by $\ (if any) to the stream when given one object
-fail:IO #print does not call obj.to_str
-fail:IO #print writes each obj.to_s to the stream and appends $\ (if any) given multiple objects
 fails:IO#print writes $_.to_s followed by $\ (if any) to the stream if no arguments given
 fails:IO#print writes obj.to_s followed by $\ (if any) to the stream when given one object
 fails:IO#print does not call obj.to_str

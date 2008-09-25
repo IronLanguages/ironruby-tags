@@ -1,5 +1,3 @@
-fails:IO#for_fd raises IOError on closed stream
-fail:IO#for_fd raises IOError on closed stream
 fails:IO.for_fd returns a new IO object
 fails:IO.for_fd takes an Integer or #to_int argument as the descriptor to open
 fails:IO.for_fd associates new IO with the old descriptor so each IO directly affects the other

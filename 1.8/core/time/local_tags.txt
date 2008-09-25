@@ -6,11 +6,3 @@ fails:Time.local handles float arguments
 fails:Time.local should accept various year ranges
 fails:Time.local throws ArgumentError for out of range values
 fails:Time.local throws ArgumentError for invalid number of arguments
-fail:Time.local creates a time based on given values, interpreted in the local time zone
-fail:Time.local creates a time based on given C-style gmtime arguments, interpreted in the local time zone
-fail:Time.local handles string-like second argument
-fail:Time.local handles string arguments
-fail:Time.local handles float arguments
-fail:Time.local should accept various year ranges
-fail:Time.local throws ArgumentError for out of range values
-fail:Time.local throws ArgumentError for invalid number of arguments

@@ -1,2 +1,1 @@
 fails:Time#year returns the four digit year for time as an integer
-fail:Time#year returns the four digit year for time as an integer

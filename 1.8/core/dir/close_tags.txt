@@ -1,2 +1,0 @@
-fails:Dir#close closes the stream and fd and returns nil
-fail:Dir#close closes the stream and fd and returns nil

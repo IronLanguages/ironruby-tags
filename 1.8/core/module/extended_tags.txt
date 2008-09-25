@@ -1,4 +1,2 @@
 fails:Module#extended is called when an object gets extended with self
 fails:Module#extended is called after Module#extend_object
-fail:Module#extended is called when an object gets extended with self
-fail:Module#extended is called after Module#extend_object

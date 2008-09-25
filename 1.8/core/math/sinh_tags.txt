@@ -1,4 +1,2 @@
 fails:Math.sinh raises a TypeError if the argument is nil
 fails:Math.sinh accepts any argument that can be coerced with Float()
-fail:Math.sinh raises a TypeError if the argument is nil
-fail:Math.sinh accepts any argument that can be coerced with Float()

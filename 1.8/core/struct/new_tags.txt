@@ -1,6 +1,2 @@
 fails:Struct.new creates a new anonymous class with nil first argument
 fails:Struct.new creates a new anonymous class with symbol arguments
-fails:Struct.new creates a constant in subclass' namespace
-fail:Struct.new creates a new anonymous class with nil first argument
-fail:Struct.new creates a new anonymous class with symbol arguments
-fail:Struct.new creates a constant in subclass' namespace

@@ -7,12 +7,3 @@ fails:Time.utc should accept various year ranges
 fails:Time.utc throws ArgumentError for out of range values
 fails:Time.utc throws ArgumentError for invalid number of arguments
 fails:Time#utc returns the utc representation of time
-fail:Time.utc creates a time based on given values, interpreted as UTC (GMT)
-fail:Time.utc creates a time based on given C-style gmtime arguments, interpreted as UTC (GMT)
-fail:Time.utc handles string-like second argument
-fail:Time.utc handles string arguments
-fail:Time.utc handles float arguments
-fail:Time.utc should accept various year ranges
-fail:Time.utc throws ArgumentError for out of range values
-fail:Time.utc throws ArgumentError for invalid number of arguments
-fail:Time#utc returns the utc representation of time

@@ -1,2 +1,2 @@
+critical:ARGF.close reads one line from the first file, closes it and read the next one
 fails:ARGF.close closes the current file and read the next one
-fails:ARGF.close reads one line from the first file, closes it and read the next one

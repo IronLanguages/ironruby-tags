@@ -1,4 +1,1 @@
-fails:Process.waitall returns an empty array when there are no children
-fails:Process.waitall takes no arguments
-fail:Process.waitall returns an empty array when there are no children
-fail:Process.waitall takes no arguments
+critical:Process.waitall

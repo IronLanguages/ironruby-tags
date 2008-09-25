@@ -8,13 +8,3 @@ fails:String#tr_s taints the result when self is tainted
 fails:String#tr_s! modifies self in place
 fails:String#tr_s! returns nil if no modification was made
 fails:String#tr_s! does not modify self if from_str is empty
-fail:String#tr_s returns a string processed according to tr with newly duplicate characters removed
-fail:String#tr_s accepts c1-c2 notation to denote ranges of characters
-fail:String#tr_s pads to_str with its last char if it is shorter than from_string
-fail:String#tr_s translates chars not in from_string when it starts with a ^
-fail:String#tr_s tries to convert from_str and to_str to strings using to_str
-fail:String#tr_s returns subclass instances when called on a subclass
-fail:String#tr_s taints the result when self is tainted
-fail:String#tr_s! modifies self in place
-fail:String#tr_s! returns nil if no modification was made
-fail:String#tr_s! does not modify self if from_str is empty

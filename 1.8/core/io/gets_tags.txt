@@ -1,8 +1,0 @@
-fails:IO#gets returns tainted strings
-fails:IO#gets updates $. with each invocation
-fails:IO#gets assigns the returned line to $_
-fails:IO#gets raises IOError on closed stream
-fail:IO#gets returns tainted strings
-fail:IO#gets updates $. with each invocation
-fail:IO#gets assigns the returned line to $_
-fail:IO#gets raises IOError on closed stream

@@ -1,4 +1,2 @@
 fails:Math.cos raises a TypeError if the argument is nil
 fails:Math.cos accepts any argument that can be coerced with Float()
-fail:Math.cos raises a TypeError if the argument is nil
-fail:Math.cos accepts any argument that can be coerced with Float()

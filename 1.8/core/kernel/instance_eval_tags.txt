@@ -1,4 +1,2 @@
 fails:Kernel#instance_eval raises a TypeError when defining methods on an immediate
 fails:Kernel#instance_eval raises a TypeError when defining methods on numerics
-fail:Kernel#instance_eval raises a TypeError when defining methods on an immediate
-fail:Kernel#instance_eval raises a TypeError when defining methods on numerics

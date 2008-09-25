@@ -1,2 +1,2 @@
-fails:Thread#inspect can check it's own status
 critical:Thread#inspect describes a sleeping thread
+fails:Thread#inspect can check it's own status

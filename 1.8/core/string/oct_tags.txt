@@ -2,7 +2,3 @@ fails:String#oct treats leading characters of self as a string of oct digits
 fails:String#oct accepts a sequence of underscores as part of a number
 fails:String#oct takes an optional sign
 fails:String#oct returns 0 on error
-fail:String#oct treats leading characters of self as a string of oct digits
-fail:String#oct accepts a sequence of underscores as part of a number
-fail:String#oct takes an optional sign
-fail:String#oct returns 0 on error

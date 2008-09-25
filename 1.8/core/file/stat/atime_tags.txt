@@ -1,2 +1,1 @@
 fails:File::Stat#atime should be able to determine the atime on a File::Stat object
-fail:File::Stat#atime should be able to determine the atime on a File::Stat object

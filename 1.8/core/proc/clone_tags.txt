@@ -1,2 +1,0 @@
-fails:Proc#clone returns a copy of self
-fail:Proc#clone returns a copy of self

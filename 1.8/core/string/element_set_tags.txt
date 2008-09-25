@@ -1,4 +1,2 @@
-fails:String#[]= with String raises IndexError if the string index doesn't match a position in the string
-fails:String#[]= with String raises IndexError if the regexp index doesn't match a position in the string
-fail:String#[]= with String raises IndexError if the string index doesn't match a position in the string
-fail:String#[]= with String raises IndexError if the regexp index doesn't match a position in the string
+fails:String#[]= with String raises a TypeError if other_str can't be converted to a String
+fails:String#[]= with index, count raises a TypeError if other_str is a type other than String

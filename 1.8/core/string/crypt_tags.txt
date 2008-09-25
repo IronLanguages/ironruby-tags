@@ -4,9 +4,3 @@ fails:String#crypt converts the salt arg to a string via to_str
 fails:String#crypt raises a type error when the salt arg can't be converted to a string
 fails:String#crypt taints the result if either salt or self is tainted
 fails:String#crypt doesn't return subclass instances
-fail:String#crypt returns a cryptographic hash of self by applying the UNIX crypt algorithm with the specified salt
-fail:String#crypt raises an ArgumentError when the salt is shorter than two characters
-fail:String#crypt converts the salt arg to a string via to_str
-fail:String#crypt raises a type error when the salt arg can't be converted to a string
-fail:String#crypt taints the result if either salt or self is tainted
-fail:String#crypt doesn't return subclass instances

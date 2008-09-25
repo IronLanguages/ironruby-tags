@@ -1,21 +1,21 @@
-core\io\binmode_tags.txt:1:critical:IO#binmode does not raise any errors on closed stream
-core\io\pos_tags.txt:1:critical:IO#pos raises IOError on closed stream
-core\io\tell_tags.txt:1:critical:IO#tell raises IOError on closed stream
-core\kernel\sleep_tags.txt:3:critical:Kernel#sleep pauses execution indefinitely if not given a duration
-core\string\to_i_tags.txt:3:critical:String#to_i requires that the sign if any appears before the base specifier
-core\thread\exit_tags.txt:1:critical:Thread#exit does not deadlock when called from within the thread while being joined from without
-core\thread\inspect_tags.txt:2:critical:Thread#inspect describes a sleeping thread
-core\thread\join_tags.txt:4:critical:Thread#join raises any exceptions encountered in the thread body
-core\thread\kill_tags.txt:1:critical:Thread#kill does not deadlock when called from within the thread while being joined from without
-core\thread\main_tags.txt:1:critical:Thread.main returns the main thread
-core\thread\stop_tags.txt:2:critical:Thread.stop resets Thread.critical to false
-core\thread\terminate_tags.txt:1:critical:Thread#terminate does not deadlock when called from within the thread while being joined from without
-core\threadgroup\list_tags.txt:1:critical:ThreadGroup#list returns the list of threads in the group
-language\return_tags.txt:0:critical:The return statement raises a ThreadError if used to exit a thread
-language\throw_tags.txt:0:critical:The throw keyword raises a ThreadError if used to exit a thread
-core\thread\status_tags.txt:0:critical:Thread#status returns nil if thread terminates with exception
-core\thread\status_tags.txt:0:critical:Thread#status reports threads as running and returns false on correct termination
-core\thread\stop_tags.txt:0:critical:Thread#stop? reports if a thread has stopped due to sleeping
+core\argf\close_tags.txt:0:critical:ARGF.close reads one line from the first file, closes it and read the next one
+core\argf\eof_tags.txt:0:critical:ARGF.eof? returns true when reaching the end of a file
+core\argf\eof_tags.txt:0:critical:ARGF.eof returns true when reaching the end of a file
+core\argf\file_tags.txt:0:critical:ARGF.file returns the current file object on each file
+core\argf\filename_tags.txt:0:critical:ARGF.filename returns the current file name on each file 
+core\argf\filename_tags.txt:0:critical:ARGF.filename it sets the $FILENAME global variable with the current file name on each file
+core\argf\fileno_tags.txt:0:critical:ARGF.fileno returns the current file number on each file
+core\argf\gets_tags.txt:0:critical:ARGF.gets reads one line of a file
+core\argf\gets_tags.txt:0:critical:ARGF.gets reads all lines of a file
+core\argf\gets_tags.txt:0:critical:ARGF.gets reads all lines of two files
+core\argf\gets_tags.txt:0:critical:ARGF.gets returns nil when reaching end of files
+core\argf\gets_tags.txt:0:critical:ARGF.gets sets $_ global variable with each line read
+core\argf\lineno_tags.txt:0:critical:ARGF.lineno returns the current line number on each file
+core\argf\path_tags.txt:0:critical:ARGF.path returns the current file name on each file
+core\argf\path_tags.txt:0:critical:ARGF.path it sets the $FILENAME global variable with the current file name on each file
+core\argf\rewind_tags.txt:0:critical:ARGF.rewind goes back to beginning of current file
+core\argf\to_i_tags.txt:0:critical:ARGF.to_i returns the current file number on each file
+core\argf\to_io_tags.txt:0:critical:ARGF.to_io returns the IO of the current file
 core\array\comparison_tags.txt:0:critical:Array#<=> properly handles recursive arrays
 core\array\eql_tags.txt:0:critical:Array#eql? properly handles recursive arrays
 core\array\equal_value_tags.txt:0:critical:Array#== properly handles recursive arrays
@@ -25,3 +25,19 @@ core\array\intersection_tags.txt:0:critical:Array#& properly handles recursive a
 core\array\union_tags.txt:0:critical:Array#| properly handles recursive arrays
 core\array\uniq_tags.txt:0:critical:Array#uniq properly handles recursive arrays
 core\array\uniq_tags.txt:0:critical:Array#uniq! properly handles recursive arrays
+core\kernel\sleep_tags.txt:3:critical:Kernel#sleep pauses execution indefinitely if not given a duration
+core\kernel\backtick_tags.txt:0:critical:Kernel#` tries to convert the given argument to String using #to_str
+core\kernel\backtick_tags.txt:0:critical:Kernel#` checks whether the passed argument responds to #to_str
+core\string\to_i_tags.txt:3:critical:String#to_i requires that the sign if any appears before the base specifier
+core\thread\exit_tags.txt:1:critical:Thread#exit does not deadlock when called from within the thread while being joined from without
+core\thread\inspect_tags.txt:2:critical:Thread#inspect describes a sleeping thread
+core\thread\join_tags.txt:4:critical:Thread#join raises any exceptions encountered in the thread body
+core\thread\kill_tags.txt:1:critical:Thread#kill does not deadlock when called from within the thread while being joined from without
+core\thread\main_tags.txt:1:critical:Thread.main returns the main thread
+core\thread\stop_tags.txt:2:critical:Thread.stop resets Thread.critical to false
+core\thread\terminate_tags.txt:1:critical:Thread#terminate does not deadlock when called from within the thread while being joined from without
+core\thread\status_tags.txt:0:critical:Thread#status returns nil if thread terminates with exception
+core\thread\status_tags.txt:0:critical:Thread#status reports threads as running and returns false on correct termination
+core\thread\stop_tags.txt:0:critical:Thread#stop? reports if a thread has stopped due to sleeping
+language\return_tags.txt:0:critical:The return statement raises a ThreadError if used to exit a thread
+language\throw_tags.txt:0:critical:The throw keyword raises a ThreadError if used to exit a thread

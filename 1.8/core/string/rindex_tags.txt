@@ -2,7 +2,3 @@ fails:String#rindex with Regexp behaves the same as String#rindex(string) for es
 fails:String#rindex with Regexp returns the index of the first match from the end of string of regexp
 fails:String#rindex with Regexp starts the search at the given offset
 fails:String#rindex with Regexp supports \G which matches at the given start offset
-fail:String#rindex with Regexp behaves the same as String#rindex(string) for escaped string regexps
-fail:String#rindex with Regexp returns the index of the first match from the end of string of regexp
-fail:String#rindex with Regexp starts the search at the given offset
-fail:String#rindex with Regexp supports \G which matches at the given start offset

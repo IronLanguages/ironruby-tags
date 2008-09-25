@@ -1,2 +1,1 @@
 fails:IO#ioctl raises IOError on closed stream
-fail:IO#ioctl raises IOError on closed stream

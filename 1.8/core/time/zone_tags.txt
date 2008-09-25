@@ -1,2 +1,1 @@
 fails:Time#zone returns the time zone used for time
-fail:Time#zone returns the time zone used for time

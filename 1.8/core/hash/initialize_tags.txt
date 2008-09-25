@@ -1,2 +1,0 @@
-fails:Hash#initialize can be used to reset default_proc
-fail:Hash#initialize can be used to reset default_proc

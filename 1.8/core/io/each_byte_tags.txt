@@ -1,4 +1,0 @@
-fails:IO#each_byte raises IOError on closed stream
-fails:IO#each_byte yields each byte
-fail:IO#each_byte raises IOError on closed stream
-fail:IO#each_byte yields each byte

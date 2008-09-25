@@ -6,11 +6,3 @@ fails:Time.mktime handles float arguments
 fails:Time.mktime should accept various year ranges
 fails:Time.mktime throws ArgumentError for out of range values
 fails:Time.mktime throws ArgumentError for invalid number of arguments
-fail:Time.mktime creates a time based on given values, interpreted in the local time zone
-fail:Time.mktime creates a time based on given C-style gmtime arguments, interpreted in the local time zone
-fail:Time.mktime handles string-like second argument
-fail:Time.mktime handles string arguments
-fail:Time.mktime handles float arguments
-fail:Time.mktime should accept various year ranges
-fail:Time.mktime throws ArgumentError for out of range values
-fail:Time.mktime throws ArgumentError for invalid number of arguments

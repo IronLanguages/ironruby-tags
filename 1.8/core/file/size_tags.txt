@@ -2,7 +2,3 @@ fails:File.size returns the size of the file
 fails:File.size? returns nil if the file has zero size
 fails:File.size? returns the size of the file if it exists and is not empty
 fails:File.size? returns nil if file_name doesn't exist
-fail:File.size returns the size of the file
-fail:File.size? returns nil if the file has zero size
-fail:File.size? returns the size of the file if it exists and is not empty
-fail:File.size? returns nil if file_name doesn't exist

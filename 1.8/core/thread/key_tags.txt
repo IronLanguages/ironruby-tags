@@ -1,4 +1,2 @@
 fails:Thread#key? tests for existance of thread local variables using symbols or strings
 fails:Thread#key? raises exceptions on the wrong type of keys
-fail:Thread#key? tests for existance of thread local variables using symbols or strings
-fail:Thread#key? raises exceptions on the wrong type of keys

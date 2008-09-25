@@ -1,2 +1,0 @@
-fails:IO#flush raises IOError on closed stream
-fail:IO#flush raises IOError on closed stream

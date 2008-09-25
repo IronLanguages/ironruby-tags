@@ -1,3 +1,4 @@
-fails:An instance method definition for 'initialize_copy' method defines it as private
+fails:Defining an 'initialize_copy' method should make it private
+fails:Redefining a singleton method does not inherit a previously set visibility 
 fails:A method definition inside an instance_eval creates a singleton method
 fails:A method definition inside an instance_eval creates a class method when the receiver is a class
