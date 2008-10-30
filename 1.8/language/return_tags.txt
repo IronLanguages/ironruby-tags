@@ -1,1 +1,1 @@
-critical:The return statement raises a ThreadError if used to exit a thread
+fails:The return keyword raises a ThreadError if used to exit a thread

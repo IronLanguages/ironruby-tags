@@ -39,5 +39,4 @@ core\thread\terminate_tags.txt:1:critical:Thread#terminate does not deadlock whe
 core\thread\status_tags.txt:0:critical:Thread#status returns nil if thread terminates with exception
 core\thread\status_tags.txt:0:critical:Thread#status reports threads as running and returns false on correct termination
 core\thread\stop_tags.txt:0:critical:Thread#stop? reports if a thread has stopped due to sleeping
-language\return_tags.txt:0:critical:The return statement raises a ThreadError if used to exit a thread
-language\throw_tags.txt:0:critical:The throw keyword raises a ThreadError if used to exit a thread
+language\method_tags.txt:0:critical:Calling a method fails with both lambda and block argument
