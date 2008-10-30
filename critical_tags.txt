@@ -26,17 +26,8 @@ core\array\union_tags.txt:0:critical:Array#| properly handles recursive arrays
 core\array\uniq_tags.txt:0:critical:Array#uniq properly handles recursive arrays
 core\array\uniq_tags.txt:0:critical:Array#uniq! properly handles recursive arrays
 core\kernel\sleep_tags.txt:3:critical:Kernel#sleep pauses execution indefinitely if not given a duration
-core\kernel\backtick_tags.txt:0:critical:Kernel#` tries to convert the given argument to String using #to_str
-core\kernel\backtick_tags.txt:0:critical:Kernel#` checks whether the passed argument responds to #to_str
 core\string\to_i_tags.txt:3:critical:String#to_i requires that the sign if any appears before the base specifier
-core\thread\exit_tags.txt:1:critical:Thread#exit does not deadlock when called from within the thread while being joined from without
 core\thread\inspect_tags.txt:2:critical:Thread#inspect describes a sleeping thread
-core\thread\join_tags.txt:4:critical:Thread#join raises any exceptions encountered in the thread body
-core\thread\kill_tags.txt:1:critical:Thread#kill does not deadlock when called from within the thread while being joined from without
-core\thread\main_tags.txt:1:critical:Thread.main returns the main thread
 core\thread\stop_tags.txt:2:critical:Thread.stop resets Thread.critical to false
-core\thread\terminate_tags.txt:1:critical:Thread#terminate does not deadlock when called from within the thread while being joined from without
-core\thread\status_tags.txt:0:critical:Thread#status returns nil if thread terminates with exception
-core\thread\status_tags.txt:0:critical:Thread#status reports threads as running and returns false on correct termination
 core\thread\stop_tags.txt:0:critical:Thread#stop? reports if a thread has stopped due to sleeping
 language\method_tags.txt:0:critical:Calling a method fails with both lambda and block argument
