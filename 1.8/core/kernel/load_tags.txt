@@ -1,6 +1,2 @@
-fails:Kernel#load does not add the loaded file to $LOADED_FEATURES
 fails:Kernel#load produces __FILE__ as the given filename and __LINE__ as the source line number
-fails:Kernel#load does not cause #require on the same filename to fail
-fails:Shell expansion in Kernel#load expands a preceding ~/ to the user's home directory to use as path
-fails:Kernel#load loads a file with no extension as a ruby source file
-fails:Kernel#load does not create a .rb file for the non-.rb files
+fails:Kernel#load only accepts strings as the filename argument

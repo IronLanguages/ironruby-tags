@@ -1,2 +1,2 @@
-critical:Array#<=> properly handles recursive arrays
 fails:Array#<=> calls <=> left to right and return first non-0 result
+critical:Array#<=> properly handles recursive arrays

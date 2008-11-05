@@ -1,2 +1,0 @@
-fails:Fixnum#& doesn't raise an error if passed a Float out of Fixnum range
-fails:Fixnum#& coerces arguments correctly even if it is a Bignum

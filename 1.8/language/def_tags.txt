@@ -1,1 +1,0 @@
-fails:Defining an 'initialize_copy' method should make it private

@@ -1,1 +1,1 @@
-critical:Thread.main returns the main thread
+fails:Thread.main returns the main thread

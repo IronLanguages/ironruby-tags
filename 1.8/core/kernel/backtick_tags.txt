@@ -1,2 +1,0 @@
-critical:Kernel#` tries to convert the given argument to String using #to_str
-critical:Kernel#` checks whether the passed argument responds to #to_str

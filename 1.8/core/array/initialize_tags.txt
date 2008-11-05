@@ -1,1 +1,2 @@
-fails:Array#initialize raises a TypeError on frozen arrays even if the array would not be 'modified'
+fails:Array#initialize with (size, object) raises an ArgumentError if size is too large
+fails:Array#initialize with (size, object) yields the given block size times passing an index and fills self with values of the block even if a filler value passed

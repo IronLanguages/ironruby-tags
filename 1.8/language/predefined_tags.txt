@@ -6,3 +6,4 @@ fails:Predefined global $stdout raises TypeError error if assigned to object tha
 fails:Predefined global $_ is set at the method-scoped level rather than block-scoped
 fails:The predefined global constants includes DATA when main script contains __END__
 fails:The predefined global constants does not include DATA when main script contains no __END__
+fails:Execution variable $: does not include on the taint check level > 1

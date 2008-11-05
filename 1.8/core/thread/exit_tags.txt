@@ -1,1 +1,1 @@
-critical:Thread#exit does not deadlock when called from within the thread while being joined from without
+fails:Thread#exit does not deadlock when called from within the thread while being joined from without

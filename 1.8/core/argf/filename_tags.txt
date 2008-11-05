@@ -1,2 +1,7 @@
 critical:ARGF.filename returns the current file name on each file
 critical:ARGF.filename it sets the $FILENAME global variable with the current file name on each file
+critical:ARGF.filename returns the current file name on each file
+critical:ARGF.filename returns the current file name on each file
+critical:ARGF.filename returns the current file name on each file
+critical:ARGF.filename returns the current file name on each file
+critical:ARGF.filename returns the current file name on each file

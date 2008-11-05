@@ -1,4 +1,0 @@
-critical:Thread#join raises any exceptions encountered in the thread body
-fails:Thread#join returns the thread when it is finished when given a timeout
-fails:Thread#join returns nil if it is not finished when given a timeout
-fails:Thread#join accepts a floating point timeout length

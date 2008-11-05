@@ -22,11 +22,20 @@ core\array\equal_value_tags.txt:0:critical:Array#== properly handles recursive a
 core\array\hash_tags.txt:0:critical:Array#hash properly handles recursive arrays
 core\array\hash_tags.txt:0:critical:Array#hash properly handles recursive arrays
 core\array\intersection_tags.txt:0:critical:Array#& properly handles recursive arrays
+core\array\join_tags.txt:0:critical:Array#join raises a NoMethodError if an element does not respond to #to_s 
+core\array\join_tags.txt:0:critical:Array#join does not separates elements when the passed separator is nil
 core\array\union_tags.txt:0:critical:Array#| properly handles recursive arrays
 core\array\uniq_tags.txt:0:critical:Array#uniq properly handles recursive arrays
 core\array\uniq_tags.txt:0:critical:Array#uniq! properly handles recursive arrays
 core\kernel\sleep_tags.txt:3:critical:Kernel#sleep pauses execution indefinitely if not given a duration
+core\string\process\wait_tags.txt:0:critical:Process.wait
+core\string\process\wait2_tags.txt:0:critical:Process.wait2
+core\string\process\waitall_tags.txt:0:critical:Process.waitall
 core\string\to_i_tags.txt:3:critical:String#to_i requires that the sign if any appears before the base specifier
+core\string\hex_tags.txt:3:critical:String#hex takes an optional sign
+core\string\hex_tags.txt:3:critical:String#hex returns 0 on error
+core\string\oct_tags.txt:3:critical:String#oct takes an optional sign
+core\string\oct_tags.txt:3:critical:String#oct returns 0 on error
 core\thread\inspect_tags.txt:2:critical:Thread#inspect describes a sleeping thread
 core\thread\stop_tags.txt:2:critical:Thread.stop resets Thread.critical to false
 core\thread\stop_tags.txt:0:critical:Thread#stop? reports if a thread has stopped due to sleeping
