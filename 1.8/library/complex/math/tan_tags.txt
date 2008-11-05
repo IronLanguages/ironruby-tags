@@ -1,0 +1,4 @@
+fails:Math#tan should be private
+fails:Math#tan! raises a TypeError when passed a Complex number
+fails:Math#tan! should be private
+fails:Math.tan! raises a TypeError when passed a Complex number

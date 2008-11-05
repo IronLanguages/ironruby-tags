@@ -1,0 +1,4 @@
+fails:Math#tanh should be private
+fails:Math#tanh! raises a TypeError when passed a Complex number
+fails:Math#tanh! should be private
+fails:Math.tanh! raises a TypeError when passed a Complex number

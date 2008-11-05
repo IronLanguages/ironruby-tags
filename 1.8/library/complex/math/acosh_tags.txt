@@ -1,0 +1,4 @@
+fails:Math#acosh should be private
+fails:Math#acosh! raises a TypeError when passed a Complex number
+fails:Math#acosh! should be private
+fails:Math.acosh! raises a TypeError when passed a Complex number

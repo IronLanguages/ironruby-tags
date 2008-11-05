@@ -1,0 +1,1 @@
+fails:CGI::QueryExtension::Value#first outputs a warning

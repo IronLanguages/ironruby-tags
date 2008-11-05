@@ -1,0 +1,1 @@
+fails:REXML::Text#empty? returns true if the text is empty

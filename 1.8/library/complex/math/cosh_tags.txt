@@ -1,0 +1,4 @@
+fails:Math#cosh should be private
+fails:Math#cosh! raises a TypeError when passed a Complex number
+fails:Math#cosh! should be private
+fails:Math.cosh! raises a TypeError when passed a Complex number

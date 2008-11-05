@@ -1,0 +1,4 @@
+fails:Math#sqrt should be private
+fails:Math#sqrt! raises a TypeError when passed a Complex number
+fails:Math#sqrt! should be private
+fails:Math.sqrt! raises a TypeError when passed a Complex number

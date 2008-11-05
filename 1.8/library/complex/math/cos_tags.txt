@@ -1,0 +1,4 @@
+fails:Math#cos should be private
+fails:Math#cos! raises a TypeError when passed a Complex number
+fails:Math#cos! should be private
+fails:Math.cos! raises a TypeError when passed a Complex number

@@ -1,0 +1,4 @@
+fails:Math#sinh should be private
+fails:Math#sinh! raises a TypeError when passed a Complex number
+fails:Math#sinh! should be private
+fails:Math.sinh! raises a TypeError when passed a Complex number

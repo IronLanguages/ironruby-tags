@@ -1,0 +1,4 @@
+fails:Math#asinh should be private
+fails:Math#asinh! raises a TypeError when passed a Complex number
+fails:Math#asinh! should be private
+fails:Math.asinh! raises a TypeError when passed a Complex number

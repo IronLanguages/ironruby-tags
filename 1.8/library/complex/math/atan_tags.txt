@@ -1,0 +1,4 @@
+fails:Math#atan should be private
+fails:Math#atan! raises a TypeError when passed a Complex number
+fails:Math#atan! should be private
+fails:Math.atan! raises a TypeError when passed a Complex number

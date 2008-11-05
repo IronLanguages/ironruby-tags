@@ -1,0 +1,4 @@
+fails:Math#asin should be private
+fails:Math#asin! raises a TypeError when passed a Complex number
+fails:Math#asin! should be private
+fails:Math.asin! raises a TypeError when passed a Complex number

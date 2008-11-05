@@ -1,0 +1,4 @@
+fails:YAML.load fails on invalid keys
+fails:YAML.load parses start markers
+fails:YAML.load does not escape symbols
+fails:YAML.load works on complex keys

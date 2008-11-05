@@ -1,0 +1,2 @@
+fails:StringIO#read when passed [length] raises a TypeError when the passed length is negative
+fails:StringIO#read when self is not readable raises an IOError

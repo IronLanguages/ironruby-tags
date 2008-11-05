@@ -1,0 +1,4 @@
+fails:Math#sin should be private
+fails:Math#sin! raises a TypeError when passed a Complex number
+fails:Math#sin! should be private
+fails:Math.sin! raises a TypeError when passed a Complex number
