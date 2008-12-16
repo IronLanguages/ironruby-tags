@@ -1,1 +1,2 @@
 fails:File.executable? returns false if the file does not exist
+fails:File.executable? raises a TypeError if not passed a String type

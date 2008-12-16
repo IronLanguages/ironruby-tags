@@ -1,1 +1,0 @@
-fails:Net::HTTP#finish when self has been started closes the tcp connection

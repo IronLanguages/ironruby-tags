@@ -1,2 +1,1 @@
-fails:Etc.getpwuid returns a Passwd struct instance for the given user
-fails:Etc.getpwuid only accepts integers as argument
+fails:Etc.getpwuid returns nil

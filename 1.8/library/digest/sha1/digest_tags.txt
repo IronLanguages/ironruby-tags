@@ -1,0 +1,2 @@
+fails:Digest::SHA1#digest returns a digest
+fails:Digest::SHA1.digest returns a digest

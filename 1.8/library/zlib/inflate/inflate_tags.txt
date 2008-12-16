@@ -1,0 +1,2 @@
+fails:Zlib::Inflate::inflate inflates some data
+fails:Zlib::Inflate::inflate inflates lots of data

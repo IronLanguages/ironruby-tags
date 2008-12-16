@@ -1,2 +1,0 @@
-fails:Net::FTP#return_code outputs a warning and returns \n
-fails:Net::FTP#return_code= outputs a warning
